@@ -112,7 +112,7 @@ async function renderLeagueTable(leagueId: string) {
 
     const generatedImageFilePath: `${string}.${string}` = `${folderName}/table-${leagueId}.png`
     await renderHtmlToImage(htmlString, generatedImageFilePath)
-        .then(() => console.log('Image saved as output.png'))
+        .then(() => console.log(`Table for ${league.Name} generated at ${generatedImageFilePath}`))
         .catch(console.error);
     await trimImage(generatedImageFilePath)
     await addMarginToImage(generatedImageFilePath, 20)
