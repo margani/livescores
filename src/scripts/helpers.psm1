@@ -14,7 +14,7 @@ $EventStatusName = @{
 }
 $DataFilePath = "./src/scripts/data.json"
 Function Get-Data() { return Get-Content -Path $DataFilePath -Raw | ConvertFrom-Json }
-Function Save-Data($Data) { Write-Host "Updating data file..."; $Data | ConvertTo-Json -Depth 100 | Set-Content -Path $DataFilePath }
+Function Save-Data($Data) { $Data | ConvertTo-Json -Depth 100 | Set-Content -Path $DataFilePath }
 Function Get-LeagueById($Id) {
     $data = Get-Data
     return $data.leagues | Where-Object { $_.Id -eq $Id }
