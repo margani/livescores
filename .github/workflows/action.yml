@@ -34,9 +34,9 @@ jobs:
         with:
           node-version: 20.x
 
-      - name: npm ci
+      - name: pnpm i
         if: env.TABLE_GEN_SCHEDULE
-        run: npm ci
+        run: pnpm i
 
       - name: Generate tables
         if: env.TABLE_GEN_SCHEDULE
