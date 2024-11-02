@@ -1,0 +1,1053 @@
+{
+  "filters": [
+    {
+      "country": "England",
+      "league": "Premier League"
+    },
+    {
+      "country": "Champions League",
+      "league": "League Stage"
+    },
+    {
+      "country": "Champions League",
+      "league": "Qualification"
+    },
+    {
+      "country": "Iran",
+      "league": "Persian Gulf Pro League"
+    },
+    {
+      "teams": [
+        "Liverpool",
+        "Real Madrid",
+        "Arsenal",
+        "Chelsea",
+        "Manchester City",
+        "Manchester United",
+        "Barcelona",
+        "Bayern Munich",
+        "Juventus",
+        "Paris Saint-Germain",
+        "Inter",
+        "AC Milan",
+        "Mallorca",
+        "Portugal",
+        "Scotland",
+        "Italy",
+        "Germany",
+        "France",
+        "Spain",
+        "England",
+        "Iran",
+        "Belgium",
+        "Netherlands",
+        "Denmark",
+        "Switzerland",
+        "Austria",
+        "Czech Republic",
+        "Sweden",
+        "Norway",
+        "Finland",
+        "Poland",
+        "Russia",
+        "Ukraine",
+        "Turkey",
+        "Greece",
+        "Croatia",
+        "Georgia",
+        "Japan",
+        "Wales",
+        "Northern Ireland"
+      ]
+    }
+  ],
+  "leagues": [
+    {
+      "BadgeUrl": "https://static.livescore.com/competition/high/premier-league-2024.png",
+      "Id": "18173",
+      "Name": "Premier League",
+      "Country": "England",
+      "Slug": "premier-league",
+      "CountrySlug": "england"
+    },
+    {
+      "BadgeUrl": "https://static.livescore.com/competition/high/2023-bundesliga.png",
+      "Id": "18418",
+      "Name": "Bundesliga",
+      "Country": "Germany",
+      "Slug": "bundesliga",
+      "CountrySlug": "germany"
+    },
+    {
+      "BadgeUrl": "https://static.livescore.com/competition/high/2023-italy-serie-a.png",
+      "Id": "18420",
+      "Name": "Serie A",
+      "Country": "Italy",
+      "Slug": "serie-a",
+      "CountrySlug": "italy"
+    },
+    {
+      "BadgeUrl": "https://static.livescore.com/competition/high/2024-french-ligue-1.png",
+      "Id": "18227",
+      "Name": "Ligue 1",
+      "Country": "France",
+      "Slug": "ligue-1",
+      "CountrySlug": "france"
+    },
+    {
+      "BadgeUrl": "https://static.livescore.com/competition/high/2023-spain-laliga.png",
+      "Name": "LaLiga",
+      "Id": "18176",
+      "Country": "Spain",
+      "Slug": "laliga",
+      "CountrySlug": "spain"
+    },
+    {
+      "Name": "EFL Cup: Round 4",
+      "Id": "18299",
+      "Country": "England",
+      "BadgeUrl": "https://static.livescore.com/competition/high/2023-england-efl-cup.png",
+      "Slug": "efl-cup-round-4",
+      "CountrySlug": "england"
+    },
+    {
+      "BadgeUrl": "https://static.livescore.com/competition/high/2023-germany-dfb-cup.png",
+      "Country": "Germany",
+      "Id": "18012",
+      "Name": "DFB Cup: Round 2",
+      "Slug": "dfb-cup-round-2-2024-2025",
+      "CountrySlug": "germany"
+    },
+    {
+      "Name": "Persian Gulf Pro League",
+      "CountrySlug": "iran",
+      "Slug": "pro-league",
+      "Country": "Iran",
+      "Id": "18737",
+      "BadgeUrl": "https://static.livescore.com/competition/high/2023-persian-gulf-league.jpg"
+    },
+    {
+      "Name": "FA Cup: Round 1",
+      "Slug": "fa-cup-round-1",
+      "Country": "England",
+      "CountrySlug": "england",
+      "BadgeUrl": "https://static.livescore.com/competition/high/2023-england-fa-cup.png",
+      "Id": "19590"
+    }
+  ],
+  "teams": [
+    {
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/8455.png",
+      "Abbreviation": "CHE",
+      "Id": "2881",
+      "Name": "Chelsea"
+    },
+    {
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/10261.png",
+      "Abbreviation": "NEW",
+      "Id": "2986",
+      "Name": "Newcastle United"
+    },
+    {
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/9826.png",
+      "Abbreviation": "CRY",
+      "Id": "2772",
+      "Name": "Crystal Palace"
+    },
+    {
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/8586.png",
+      "Abbreviation": "TOT",
+      "Id": "3339",
+      "Name": "Tottenham Hotspur"
+    },
+    {
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/8654.png",
+      "Abbreviation": "WHU",
+      "Id": "252",
+      "Name": "West Ham United"
+    },
+    {
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/10260.png",
+      "Abbreviation": "MUN",
+      "Id": "2810",
+      "Name": "Manchester United"
+    },
+    {
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/9825.png",
+      "Abbreviation": "ARS",
+      "Id": "2773",
+      "Name": "Arsenal"
+    },
+    {
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/teambadge/liverpool-2024.png",
+      "Abbreviation": "LIV",
+      "Id": "3340",
+      "Name": "Liverpool"
+    },
+    {
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/9911.png",
+      "Abbreviation": "BOC",
+      "Id": "5262",
+      "Name": "VfL Bochum"
+    },
+    {
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/9823.png",
+      "Abbreviation": "BAY",
+      "Id": "2940",
+      "Name": "Bayern Munich"
+    },
+    {
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/8636.png",
+      "Abbreviation": "INT",
+      "Id": "3415",
+      "Name": "Inter"
+    },
+    {
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/9885.png",
+      "Abbreviation": "JUV",
+      "Id": "4238",
+      "Name": "Juventus"
+    },
+    {
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/8592.png",
+      "Abbreviation": "OLM",
+      "Id": "206",
+      "Name": "Marseille"
+    },
+    {
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/9847.png",
+      "Abbreviation": "PSG",
+      "Id": "3910",
+      "Name": "Paris Saint-Germain"
+    },
+    {
+      "Abbreviation": "RCD",
+      "Name": "Mallorca",
+      "Id": "500",
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/8661.png"
+    },
+    {
+      "Abbreviation": "ATB",
+      "Name": "Athletic Club",
+      "Id": "3408",
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/8315.png"
+    },
+    {
+      "Abbreviation": "MIL",
+      "Name": "AC Milan",
+      "Id": "2988",
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/8564.png"
+    },
+    {
+      "Abbreviation": "NAP",
+      "Name": "Napoli",
+      "Id": "3460",
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/9875.png"
+    },
+    {
+      "Abbreviation": "SOU",
+      "Name": "Southampton",
+      "Id": "2902",
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/8466.png"
+    },
+    {
+      "Abbreviation": "STO",
+      "Name": "Stoke City",
+      "Id": "3005",
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/10194.png"
+    },
+    {
+      "Name": "Empoli",
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/8534.png",
+      "Abbreviation": "EMP",
+      "Id": "4642"
+    },
+    {
+      "Name": "Parma",
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/10167.png",
+      "Abbreviation": "PAR",
+      "Id": "4410"
+    },
+    {
+      "Name": "Brighton",
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/10204.png",
+      "Abbreviation": "BHA",
+      "Id": "2918"
+    },
+    {
+      "Name": "Aston Villa",
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/teambadge/aston-villa-2024.png",
+      "Abbreviation": "AVL",
+      "Id": "3863"
+    },
+    {
+      "Name": "Leicester City",
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/8197.png",
+      "Abbreviation": "LEI",
+      "Id": "2901"
+    },
+    {
+      "Name": "Preston North End",
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/8411.png",
+      "Abbreviation": "PNE",
+      "Id": "2771"
+    },
+    {
+      "Name": "Manchester City",
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/8456.png",
+      "Abbreviation": "MCI",
+      "Id": "12633"
+    },
+    {
+      "Name": "Mainz 05",
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/9905.png",
+      "Abbreviation": "M05",
+      "Id": "3310"
+    },
+    {
+      "Id": "4308",
+      "Name": "Esteghlal Khuzestan",
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/394619.png",
+      "Abbreviation": "EST"
+    },
+    {
+      "Id": "5059",
+      "Name": "Persepolis",
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/101610.png",
+      "Abbreviation": "PER"
+    },
+    {
+      "Abbreviation": "EST",
+      "Id": "4592",
+      "Name": "Esteghlal",
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/101614.png"
+    },
+    {
+      "Abbreviation": "TRA",
+      "Id": "5024",
+      "Name": "Tractor FC",
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/teambadge/tractor-fc-2024.png"
+    },
+    {
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/9819.png",
+      "Abbreviation": "NCO",
+      "Id": "3455",
+      "Name": "Notts County"
+    },
+    {
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/6258.png",
+      "Abbreviation": "ALF",
+      "Id": "4537",
+      "Name": "Alfreton Town"
+    },
+    {
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/10254.png",
+      "Abbreviation": "TAM",
+      "Id": "3279",
+      "Name": "Tamworth"
+    },
+    {
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/9796.png",
+      "Abbreviation": "HUD",
+      "Id": "2830",
+      "Name": "Huddersfield Town"
+    },
+    {
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/9866.png",
+      "Abbreviation": "ALV",
+      "Id": "4482",
+      "Name": "Deportivo Alaves"
+    },
+    {
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/1396532.png",
+      "Abbreviation": "CHA",
+      "Id": "231039",
+      "Name": "Chadormalu Yazd"
+    },
+    {
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/101618.png",
+      "Abbreviation": "ZOB",
+      "Id": "5045",
+      "Name": "Zob Ahan"
+    },
+    {
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/389880.png",
+      "Abbreviation": "GOL",
+      "Id": "5048",
+      "Name": "Gol Gohar"
+    },
+    {
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/139914.png",
+      "Abbreviation": "FOO",
+      "Id": "4591",
+      "Name": "Foolad Khuzestan"
+    },
+    {
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/101612.png",
+      "Abbreviation": "MAL",
+      "Id": "4273",
+      "Name": "Malavan"
+    },
+    {
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/955322.png",
+      "Abbreviation": "HAV",
+      "Id": "4344",
+      "Name": "Havadar SC"
+    },
+    {
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/392200.png",
+      "Abbreviation": "NAS",
+      "Id": "5060",
+      "Name": "Nassaji Mazandaran FC"
+    },
+    {
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/394620.png",
+      "Abbreviation": "MES",
+      "Id": "4285",
+      "Name": "Mes Rafsanjan"
+    },
+    {
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/101611.png",
+      "Abbreviation": "SEP",
+      "Id": "5019",
+      "Name": "Sepahan"
+    },
+    {
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/664861.png",
+      "Abbreviation": "ALU",
+      "Id": "4349",
+      "Name": "Aluminium Arak"
+    },
+    {
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/1303998.png",
+      "Abbreviation": "SHA",
+      "Id": "193366",
+      "Name": "Shams Azar Qazvin"
+    },
+    {
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/664862.png",
+      "Abbreviation": "KHE",
+      "Id": "10992",
+      "Name": "Kheybar Khorramabad"
+    },
+    {
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/8678.png",
+      "Abbreviation": "BOU",
+      "Name": "Bournemouth",
+      "Id": "3928"
+    },
+    {
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/9902.png",
+      "Abbreviation": "IPS",
+      "Name": "Ipswich Town",
+      "Id": "2786"
+    },
+    {
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/10203.png",
+      "Abbreviation": "FOR",
+      "Name": "Nottingham Forest",
+      "Id": "3060"
+    },
+    {
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/8668.png",
+      "Abbreviation": "EVE",
+      "Name": "Everton",
+      "Id": "2917"
+    },
+    {
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/8602.png",
+      "Abbreviation": "WOL",
+      "Name": "Wolves",
+      "Id": "2985"
+    },
+    {
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/8149.png",
+      "Abbreviation": "UNB",
+      "Name": "Union Berlin",
+      "Id": "2828"
+    },
+    {
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/8600.png",
+      "Abbreviation": "UDI",
+      "Name": "Udinese",
+      "Id": "3861"
+    },
+    {
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/6504.png",
+      "Abbreviation": "MNZ",
+      "Name": "Monza",
+      "Id": "4224"
+    },
+    {
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/8588.png",
+      "Abbreviation": "LEN",
+      "Name": "Lens",
+      "Id": "4715"
+    }
+  ],
+  "events": [
+    {
+      "AwayTeam": "2986",
+      "HomeTeam": "2881",
+      "MessageId": 63,
+      "League": "18173",
+      "AwayScore": "1",
+      "Id": "1250660",
+      "HomeScore": "2",
+      "Status": "FullTime",
+      "StartTime": "2024-10-27T14:00:00",
+      "Highlight": {
+        "PublishedAt": "2024-10-27T16:26:44+00:00",
+        "ThumbnailUrl": "https://i.ytimg.com/vi/-ANY7Ez4g2Y/mqdefault.jpg",
+        "VideoUrl": "https://www.youtube.com/watch?v=-ANY7Ez4g2Y",
+        "MessageId": 97
+      }
+    },
+    {
+      "AwayTeam": "3339",
+      "HomeTeam": "2772",
+      "MessageId": 64,
+      "League": "18173",
+      "AwayScore": "0",
+      "Id": "1250659",
+      "HomeScore": "1",
+      "Status": "FullTime",
+      "StartTime": "2024-10-27T14:00:00",
+      "Highlight": {
+        "PublishedAt": "2024-10-27T16:19:14+00:00",
+        "ThumbnailUrl": "https://i.ytimg.com/vi/vEVfK6SrMow/mqdefault.jpg",
+        "VideoUrl": "https://www.youtube.com/watch?v=vEVfK6SrMow",
+        "MessageId": 98
+      }
+    },
+    {
+      "AwayTeam": "2810",
+      "HomeTeam": "252",
+      "MessageId": 65,
+      "League": "18173",
+      "AwayScore": "1",
+      "Id": "1250663",
+      "HomeScore": "2",
+      "Status": "FullTime",
+      "StartTime": "2024-10-27T14:00:00",
+      "Highlight": {
+        "PublishedAt": "2024-10-27T16:33:34+00:00",
+        "ThumbnailUrl": "https://i.ytimg.com/vi/yeI69dRiKcY/mqdefault.jpg",
+        "VideoUrl": "https://www.youtube.com/watch?v=yeI69dRiKcY",
+        "MessageId": 99
+      }
+    },
+    {
+      "AwayTeam": "3340",
+      "HomeTeam": "2773",
+      "MessageId": 66,
+      "League": "18173",
+      "AwayScore": "2",
+      "Id": "1250661",
+      "HomeScore": "2",
+      "Status": "FullTime",
+      "StartTime": "2024-10-27T16:30:00",
+      "Highlight": {
+        "PublishedAt": "2024-10-27T18:57:28+00:00",
+        "ThumbnailUrl": "https://i.ytimg.com/vi/fj_ONHDaqJw/mqdefault.jpg",
+        "VideoUrl": "https://www.youtube.com/watch?v=fj_ONHDaqJw",
+        "MessageId": 100
+      }
+    },
+    {
+      "AwayTeam": "3910",
+      "HomeTeam": "206",
+      "MessageId": 109,
+      "League": "18227",
+      "AwayScore": "3",
+      "Id": "1257603",
+      "HomeScore": "0",
+      "Status": "FullTime",
+      "StartTime": "2024-10-27T19:45:00",
+      "Highlight": null
+    },
+    {
+      "AwayTeam": "2940",
+      "HomeTeam": "5262",
+      "MessageId": 67,
+      "League": "18418",
+      "AwayScore": "5",
+      "Id": "1279305",
+      "HomeScore": "0",
+      "Status": "FullTime",
+      "StartTime": "2024-10-27T14:30:00",
+      "Highlight": {
+        "PublishedAt": "2024-10-27T16:53:55+00:00",
+        "ThumbnailUrl": "https://i.ytimg.com/vi/C95Y4TJcza0/mqdefault.jpg",
+        "VideoUrl": "https://www.youtube.com/watch?v=C95Y4TJcza0",
+        "MessageId": 101
+      }
+    },
+    {
+      "AwayTeam": "4238",
+      "HomeTeam": "3415",
+      "MessageId": 68,
+      "League": "18420",
+      "AwayScore": "4",
+      "Id": "1279988",
+      "HomeScore": "4",
+      "Status": "FullTime",
+      "StartTime": "2024-10-27T17:00:00",
+      "Highlight": {
+        "PublishedAt": "2024-10-27T19:14:06+00:00",
+        "ThumbnailUrl": "https://i.ytimg.com/vi/fGm_YzQ6FPw/mqdefault.jpg",
+        "VideoUrl": "https://www.youtube.com/watch?v=fGm_YzQ6FPw",
+        "MessageId": 102
+      }
+    },
+    {
+      "StartTime": "2024-10-28T20:00:00",
+      "AwayScore": "0",
+      "Id": "1251209",
+      "AwayTeam": "3408",
+      "MessageId": 110,
+      "League": "18176",
+      "HomeTeam": "500",
+      "HomeScore": "0",
+      "Status": "FullTime",
+      "Highlight": {
+        "ThumbnailUrl": "https://i.ytimg.com/vi/M9M4XnoXey4/mqdefault.jpg",
+        "MessageId": 113,
+        "VideoUrl": "https://www.youtube.com/watch?v=M9M4XnoXey4",
+        "PublishedAt": "2024-10-28T22:38:10+00:00"
+      }
+    },
+    {
+      "StartTime": "2024-10-29T19:45:00",
+      "League": "18299",
+      "Status": "FullTime",
+      "Id": "1388816",
+      "HomeTeam": "2902",
+      "AwayTeam": "3005",
+      "AwayScore": "2",
+      "HomeScore": "3",
+      "MessageId": 111,
+      "Highlight": {
+        "ThumbnailUrl": "https://i.ytimg.com/vi/Jd2VFFjEiSo/mqdefault.jpg",
+        "MessageId": 114,
+        "VideoUrl": "https://www.youtube.com/watch?v=Jd2VFFjEiSo",
+        "PublishedAt": "2024-10-30T00:29:18+00:00"
+      }
+    },
+    {
+      "StartTime": "2024-10-29T19:45:00",
+      "League": "18420",
+      "Status": "FullTime",
+      "Id": "1279963",
+      "HomeTeam": "2988",
+      "AwayTeam": "3460",
+      "AwayScore": "2",
+      "HomeScore": "0",
+      "MessageId": 112,
+      "Highlight": {
+        "ThumbnailUrl": "https://i.ytimg.com/vi/GUYsYeUBgXA/mqdefault.jpg",
+        "MessageId": 115,
+        "VideoUrl": "https://www.youtube.com/watch?v=GUYsYeUBgXA",
+        "PublishedAt": "2024-10-29T22:09:55+00:00"
+      }
+    },
+    {
+      "MessageId": 123,
+      "HomeTeam": "3310",
+      "Status": "FullTime",
+      "League": "18012",
+      "StartTime": "2024-10-30T19:45:00",
+      "HomeScore": "0",
+      "AwayScore": "4",
+      "AwayTeam": "2940",
+      "Id": "1404322",
+      "Highlight": {
+        "VideoUrl": "https://www.youtube.com/watch?v=50LhHW08sxY",
+        "MessageId": 129,
+        "ThumbnailUrl": "https://i.ytimg.com/vi/50LhHW08sxY/mqdefault.jpg",
+        "PublishedAt": "2024-10-30T23:06:23+00:00"
+      }
+    },
+    {
+      "MessageId": 119,
+      "HomeTeam": "2918",
+      "Status": "FullTime",
+      "League": "18299",
+      "StartTime": "2024-10-30T19:30:00",
+      "HomeScore": "2",
+      "AwayScore": "3",
+      "AwayTeam": "3340",
+      "Id": "1388819",
+      "Highlight": {
+        "VideoUrl": "https://www.youtube.com/watch?v=Qu8mdniJ1Q8",
+        "MessageId": 130,
+        "ThumbnailUrl": "https://i.ytimg.com/vi/Qu8mdniJ1Q8/mqdefault.jpg",
+        "PublishedAt": "2024-10-30T23:43:20+00:00"
+      }
+    },
+    {
+      "MessageId": 124,
+      "HomeTeam": "3863",
+      "Status": "FullTime",
+      "League": "18299",
+      "StartTime": "2024-10-30T19:45:00",
+      "HomeScore": "1",
+      "AwayScore": "2",
+      "AwayTeam": "2772",
+      "Id": "1388820",
+      "Highlight": {
+        "VideoUrl": "https://www.youtube.com/watch?v=KT-ehOPXrUw",
+        "MessageId": 131,
+        "ThumbnailUrl": "https://i.ytimg.com/vi/KT-ehOPXrUw/mqdefault.jpg",
+        "PublishedAt": "2024-10-31T00:00:27+00:00"
+      }
+    },
+    {
+      "MessageId": 125,
+      "HomeTeam": "2810",
+      "Status": "FullTime",
+      "League": "18299",
+      "StartTime": "2024-10-30T19:45:00",
+      "HomeScore": "5",
+      "AwayScore": "2",
+      "AwayTeam": "2901",
+      "Id": "1388821",
+      "Highlight": {
+        "VideoUrl": "https://www.youtube.com/watch?v=BvpEAfTN7fk",
+        "MessageId": 132,
+        "ThumbnailUrl": "https://i.ytimg.com/vi/BvpEAfTN7fk/mqdefault.jpg",
+        "PublishedAt": "2024-10-31T09:00:09+00:00"
+      }
+    },
+    {
+      "MessageId": 121,
+      "HomeTeam": "2986",
+      "Status": "FullTime",
+      "League": "18299",
+      "StartTime": "2024-10-30T19:45:00",
+      "HomeScore": "2",
+      "AwayScore": "0",
+      "AwayTeam": "2881",
+      "Id": "1388815",
+      "Highlight": {
+        "VideoUrl": "https://www.youtube.com/watch?v=pv_JcItk9Js",
+        "MessageId": 133,
+        "ThumbnailUrl": "https://i.ytimg.com/vi/pv_JcItk9Js/mqdefault.jpg",
+        "PublishedAt": "2024-10-30T22:44:37+00:00"
+      }
+    },
+    {
+      "MessageId": 122,
+      "HomeTeam": "2771",
+      "Status": "FullTime",
+      "League": "18299",
+      "StartTime": "2024-10-30T19:45:00",
+      "HomeScore": "0",
+      "AwayScore": "3",
+      "AwayTeam": "2773",
+      "Id": "1388822",
+      "Highlight": {
+        "VideoUrl": "https://www.youtube.com/watch?v=5IByw9pJcE0",
+        "MessageId": 134,
+        "ThumbnailUrl": "https://i.ytimg.com/vi/5IByw9pJcE0/mqdefault.jpg",
+        "PublishedAt": "2024-10-31T12:01:17+00:00"
+      }
+    },
+    {
+      "MessageId": 126,
+      "HomeTeam": "3339",
+      "Status": "FullTime",
+      "League": "18299",
+      "StartTime": "2024-10-30T20:15:00",
+      "HomeScore": "2",
+      "AwayScore": "1",
+      "AwayTeam": "12633",
+      "Id": "1388818",
+      "Highlight": {
+        "VideoUrl": "https://www.youtube.com/watch?v=MKXvSe4vv-w",
+        "MessageId": 135,
+        "ThumbnailUrl": "https://i.ytimg.com/vi/MKXvSe4vv-w/mqdefault.jpg",
+        "PublishedAt": "2024-10-31T00:00:13+00:00"
+      }
+    },
+    {
+      "MessageId": 118,
+      "HomeTeam": "4642",
+      "Status": "FullTime",
+      "League": "18420",
+      "StartTime": "2024-10-30T17:30:00",
+      "HomeScore": "0",
+      "AwayScore": "3",
+      "AwayTeam": "3415",
+      "Id": "1279965",
+      "Highlight": {
+        "MessageId": 127,
+        "PublishedAt": "2024-10-30T21:40:29+00:00",
+        "ThumbnailUrl": "https://i.ytimg.com/vi/RkAItVoo_xQ/mqdefault.jpg",
+        "VideoUrl": "https://www.youtube.com/watch?v=RkAItVoo_xQ"
+      }
+    },
+    {
+      "MessageId": 120,
+      "HomeTeam": "4238",
+      "Status": "FullTime",
+      "League": "18420",
+      "StartTime": "2024-10-30T19:45:00",
+      "HomeScore": "2",
+      "AwayScore": "2",
+      "AwayTeam": "4410",
+      "Id": "1279966",
+      "Highlight": null
+    },
+    {
+      "HomeTeam": "4308",
+      "AwayTeam": "5059",
+      "HomeScore": "1",
+      "AwayScore": "0",
+      "Status": "FullTime",
+      "Id": "1365562",
+      "MessageId": 117,
+      "StartTime": "2024-10-30T14:30:00",
+      "League": "18737",
+      "Highlight": null
+    },
+    {
+      "HomeScore": "0",
+      "StartTime": "2024-10-31T14:15:00",
+      "League": "18737",
+      "MessageId": 136,
+      "Status": "FullTime",
+      "Id": "1365556",
+      "AwayTeam": "5024",
+      "AwayScore": "2",
+      "HomeTeam": "4592",
+      "Highlight": null
+    },
+    {
+      "StartTime": "2024-11-01T20:00:00",
+      "Id": "1251221",
+      "HomeTeam": "4482",
+      "AwayTeam": "500",
+      "AwayScore": "0",
+      "MessageId": 146,
+      "League": "18176",
+      "Status": "FullTime",
+      "HomeScore": "1",
+      "Highlight": {
+        "ThumbnailUrl": "https://i.ytimg.com/vi/ZZWcmH6IhPM/mqdefault.jpg",
+        "PublishedAt": "2024-11-01T22:14:32+00:00",
+        "VideoUrl": "https://www.youtube.com/watch?v=ZZWcmH6IhPM",
+        "MessageId": 147
+      }
+    },
+    {
+      "StartTime": "2024-11-01T14:00:00",
+      "Id": "1365560",
+      "HomeTeam": "231039",
+      "AwayTeam": "5045",
+      "AwayScore": "0",
+      "MessageId": 138,
+      "League": "18737",
+      "Status": "FullTime",
+      "HomeScore": "1"
+    },
+    {
+      "StartTime": "2024-11-01T14:00:00",
+      "Id": "1365557",
+      "HomeTeam": "5048",
+      "AwayTeam": "4591",
+      "AwayScore": "1",
+      "MessageId": 139,
+      "League": "18737",
+      "Status": "FullTime",
+      "HomeScore": "0"
+    },
+    {
+      "StartTime": "2024-11-01T14:15:00",
+      "Id": "1365559",
+      "HomeTeam": "4273",
+      "AwayTeam": "4344",
+      "AwayScore": "2",
+      "MessageId": 140,
+      "League": "18737",
+      "Status": "FullTime",
+      "HomeScore": "0"
+    },
+    {
+      "StartTime": "2024-11-01T14:15:00",
+      "Id": "1365558",
+      "HomeTeam": "5060",
+      "AwayTeam": "4285",
+      "AwayScore": "1",
+      "MessageId": 141,
+      "League": "18737",
+      "Status": "FullTime",
+      "HomeScore": "0"
+    },
+    {
+      "StartTime": "2024-11-01T14:15:00",
+      "Id": "1365561",
+      "HomeTeam": "5019",
+      "AwayTeam": "4349",
+      "AwayScore": "0",
+      "MessageId": 142,
+      "League": "18737",
+      "Status": "FullTime",
+      "HomeScore": "1"
+    },
+    {
+      "StartTime": "2024-11-01T14:15:00",
+      "Id": "1365555",
+      "HomeTeam": "193366",
+      "AwayTeam": "10992",
+      "AwayScore": "0",
+      "MessageId": 143,
+      "League": "18737",
+      "Status": "FullTime",
+      "HomeScore": "2"
+    },
+    {
+      "StartTime": "2024-11-01T19:45:00",
+      "Id": "1398529",
+      "HomeTeam": "3455",
+      "AwayTeam": "4537",
+      "AwayScore": "1",
+      "MessageId": 144,
+      "League": "19590",
+      "Status": "FullTime",
+      "HomeScore": "5"
+    },
+    {
+      "StartTime": "2024-11-01T19:45:00",
+      "Id": "1398501",
+      "HomeTeam": "3279",
+      "AwayTeam": "2830",
+      "AwayScore": "0",
+      "MessageId": 145,
+      "League": "19590",
+      "Status": "FullTime",
+      "HomeScore": "1"
+    },
+    {
+      "HomeScore": null,
+      "AwayScore": null,
+      "StartTime": "2024-11-02T12:30:00",
+      "HomeTeam": "2986",
+      "AwayTeam": "2773",
+      "Id": "1250650",
+      "MessageId": null,
+      "Status": "NotStarted",
+      "League": "18173"
+    },
+    {
+      "HomeScore": null,
+      "AwayScore": null,
+      "StartTime": "2024-11-02T15:00:00",
+      "HomeTeam": "3928",
+      "AwayTeam": "12633",
+      "Id": "1250644",
+      "MessageId": null,
+      "Status": "NotStarted",
+      "League": "18173"
+    },
+    {
+      "HomeScore": null,
+      "AwayScore": null,
+      "StartTime": "2024-11-02T15:00:00",
+      "HomeTeam": "2786",
+      "AwayTeam": "2901",
+      "Id": "1250658",
+      "MessageId": null,
+      "Status": "NotStarted",
+      "League": "18173"
+    },
+    {
+      "HomeScore": null,
+      "AwayScore": null,
+      "StartTime": "2024-11-02T15:00:00",
+      "HomeTeam": "3340",
+      "AwayTeam": "2918",
+      "Id": "1250645",
+      "MessageId": null,
+      "Status": "NotStarted",
+      "League": "18173"
+    },
+    {
+      "HomeScore": null,
+      "AwayScore": null,
+      "StartTime": "2024-11-02T15:00:00",
+      "HomeTeam": "3060",
+      "AwayTeam": "252",
+      "Id": "1250652",
+      "MessageId": null,
+      "Status": "NotStarted",
+      "League": "18173"
+    },
+    {
+      "HomeScore": null,
+      "AwayScore": null,
+      "StartTime": "2024-11-02T15:00:00",
+      "HomeTeam": "2902",
+      "AwayTeam": "2917",
+      "Id": "1250655",
+      "MessageId": null,
+      "Status": "NotStarted",
+      "League": "18173"
+    },
+    {
+      "HomeScore": null,
+      "AwayScore": null,
+      "StartTime": "2024-11-02T17:30:00",
+      "HomeTeam": "2985",
+      "AwayTeam": "2772",
+      "Id": "1250647",
+      "MessageId": null,
+      "Status": "NotStarted",
+      "League": "18173"
+    },
+    {
+      "HomeScore": null,
+      "AwayScore": null,
+      "StartTime": "2024-11-02T16:00:00",
+      "HomeTeam": "3910",
+      "AwayTeam": "4715",
+      "Id": "1257602",
+      "MessageId": null,
+      "Status": "NotStarted",
+      "League": "18227"
+    },
+    {
+      "HomeScore": null,
+      "AwayScore": null,
+      "StartTime": "2024-11-02T14:30:00",
+      "HomeTeam": "2940",
+      "AwayTeam": "2828",
+      "Id": "1279340",
+      "MessageId": null,
+      "Status": "NotStarted",
+      "League": "18418"
+    },
+    {
+      "HomeScore": null,
+      "AwayScore": null,
+      "StartTime": "2024-11-02T17:00:00",
+      "HomeTeam": "3861",
+      "AwayTeam": "4238",
+      "Id": "1280011",
+      "MessageId": null,
+      "Status": "NotStarted",
+      "League": "18420"
+    },
+    {
+      "HomeScore": null,
+      "AwayScore": null,
+      "StartTime": "2024-11-02T19:45:00",
+      "HomeTeam": "4224",
+      "AwayTeam": "2988",
+      "Id": "1280005",
+      "MessageId": null,
+      "Status": "NotStarted",
+      "League": "18420"
+    }
+  ]
+}

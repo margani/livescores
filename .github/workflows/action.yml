@@ -1,0 +1,36 @@
+name: Checks
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "00 8 * * *"
+    - cron: "0 6-22 * * *"
+    - cron: "0 23 * * SUN"
+
+env:
+  BOT_TOKEN: '${{ secrets.TELEGRAM_BOT_TOKEN }}'
+  CHAT_ID: '${{ secrets.TELEGRAM_CHAT_ID }}'
+
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Get Today Events
+        if: github.event.schedule == '00 8 * * *' || github.event_name == 'workflow_dispatch'
+        run: .\src\scripts\actions.ps1 -Action get-event-incidents
+        shell: pwsh
+
+      - name: Get Event Incidents
+        run: .\src\scripts\actions.ps1 -Action get-event-incidents
+        shell: pwsh
+
+      - name: Get tables
+        if: github.event.schedule == '0 23 * * SUN' || github.event_name == 'workflow_dispatch'
+        run: ./src/scripts/get-tables.ps1
+        shell: pwsh
+
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_author: GitHub Actions <actions@github.com>
