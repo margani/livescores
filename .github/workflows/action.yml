@@ -46,6 +46,11 @@ jobs:
         if: env.TABLE_GEN_SCHEDULE
         run: pnpm install
 
+      - name: Install browsers
+        if: env.TABLE_GEN_SCHEDULE
+        run: npx puppeteer browsers install chrome
+        shell: pwsh
+
       - name: Generate tables
         if: env.TABLE_GEN_SCHEDULE
         run: pnpm start --action generate-league-table
