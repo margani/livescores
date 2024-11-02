@@ -1407,7 +1407,13 @@
       "Id": "1250647",
       "MessageId": 218,
       "Status": "FullTime",
-      "League": "18173"
+      "League": "18173",
+      "Highlight": {
+        "MessageId": 219,
+        "PublishedAt": "2024-11-02T19:47:18+00:00",
+        "VideoUrl": "https://www.youtube.com/watch?v=hc3W8OZYhSs",
+        "ThumbnailUrl": "https://i.ytimg.com/vi/hc3W8OZYhSs/mqdefault.jpg"
+      }
     },
     {
       "HomeScore": "1",
@@ -1456,7 +1462,7 @@
       "AwayTeam": "2988",
       "Id": "1280005",
       "MessageId": null,
-      "Status": "19'",
+      "Status": "31'",
       "League": "18420"
     }
   ]
