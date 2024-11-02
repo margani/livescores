@@ -28,15 +28,23 @@ jobs:
         run: .\src\actions.ps1 -Action get-event-incidents
         shell: pwsh
 
-      - name: Use Node.js 20.x
+      - name: Install pnpm
+        if: env.TABLE_GEN_SCHEDULE
+        uses: pnpm/action-setup@v4
+        with:
+          version: 9
+          run_install: false
+
+      - name: Install node.js 20.x
         if: env.TABLE_GEN_SCHEDULE
         uses: actions/setup-node@v4
         with:
-          node-version: 20.x
+          node-version: 20
+          cache: 'pnpm'
 
-      - name: pnpm i
+      - name: Install dependencies
         if: env.TABLE_GEN_SCHEDULE
-        run: pnpm i
+        run: pnpm install
 
       - name: Generate tables
         if: env.TABLE_GEN_SCHEDULE
