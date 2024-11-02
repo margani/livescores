@@ -1456,13 +1456,13 @@
     },
     {
       "HomeScore": "0",
-      "AwayScore": "0",
+      "AwayScore": "1",
       "StartTime": "2024-11-02T19:45:00",
       "HomeTeam": "4224",
       "AwayTeam": "2988",
       "Id": "1280005",
       "MessageId": null,
-      "Status": "42'",
+      "Status": "HalfTime",
       "League": "18420"
     }
   ]
