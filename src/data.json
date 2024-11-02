@@ -1306,7 +1306,12 @@
       "MessageId": 149,
       "Status": "FullTime",
       "League": "18173",
-      "Highlight": null
+      "Highlight": {
+        "ThumbnailUrl": "https://i.ytimg.com/vi/Bz7wdlihFdY/mqdefault.jpg",
+        "MessageId": 198,
+        "PublishedAt": "2024-11-02T17:15:00+00:00",
+        "VideoUrl": "https://www.youtube.com/watch?v=Bz7wdlihFdY"
+      }
     },
     {
       "HomeScore": "2",
@@ -1318,7 +1323,12 @@
       "MessageId": 168,
       "Status": "FullTime",
       "League": "18173",
-      "Highlight": null
+      "Highlight": {
+        "ThumbnailUrl": "https://i.ytimg.com/vi/Tc1h-Vs_Rfc/mqdefault.jpg",
+        "MessageId": 199,
+        "PublishedAt": "2024-11-02T17:20:35+00:00",
+        "VideoUrl": "https://www.youtube.com/watch?v=Tc1h-Vs_Rfc"
+      }
     },
     {
       "HomeScore": "1",
@@ -1342,7 +1352,12 @@
       "MessageId": 170,
       "Status": "FullTime",
       "League": "18173",
-      "Highlight": null
+      "Highlight": {
+        "ThumbnailUrl": "https://i.ytimg.com/vi/1dNY6bohiYQ/mqdefault.jpg",
+        "MessageId": 200,
+        "PublishedAt": "2024-11-02T17:17:45+00:00",
+        "VideoUrl": "https://www.youtube.com/watch?v=1dNY6bohiYQ"
+      }
     },
     {
       "HomeScore": "3",
@@ -1354,7 +1369,12 @@
       "MessageId": 171,
       "Status": "FullTime",
       "League": "18173",
-      "Highlight": null
+      "Highlight": {
+        "ThumbnailUrl": "https://i.ytimg.com/vi/qyAjGxFfPbk/mqdefault.jpg",
+        "MessageId": 201,
+        "PublishedAt": "2024-11-02T17:15:03+00:00",
+        "VideoUrl": "https://www.youtube.com/watch?v=qyAjGxFfPbk"
+      }
     },
     {
       "HomeScore": "1",
@@ -1366,7 +1386,12 @@
       "MessageId": 172,
       "Status": "FullTime",
       "League": "18173",
-      "Highlight": null
+      "Highlight": {
+        "ThumbnailUrl": "https://i.ytimg.com/vi/dRP3euApQV0/mqdefault.jpg",
+        "MessageId": 202,
+        "PublishedAt": "2024-11-02T17:17:38+00:00",
+        "VideoUrl": "https://www.youtube.com/watch?v=dRP3euApQV0"
+      }
     },
     {
       "HomeScore": "0",
@@ -1376,7 +1401,7 @@
       "AwayTeam": "2772",
       "Id": "1250647",
       "MessageId": null,
-      "Status": "1'",
+      "Status": "20'",
       "League": "18173"
     },
     {
@@ -1387,7 +1412,7 @@
       "AwayTeam": "4715",
       "Id": "1257602",
       "MessageId": null,
-      "Status": "69'",
+      "Status": "87'",
       "League": "18227"
     },
     {
@@ -1409,13 +1434,13 @@
     },
     {
       "HomeScore": "0",
-      "AwayScore": "1",
+      "AwayScore": "2",
       "StartTime": "2024-11-02T17:00:00",
       "HomeTeam": "3861",
       "AwayTeam": "4238",
       "Id": "1280011",
       "MessageId": null,
-      "Status": "30'",
+      "Status": "HalfTime",
       "League": "18420"
     },
     {
