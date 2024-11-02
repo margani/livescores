@@ -929,14 +929,14 @@
       "HomeScore": "1"
     },
     {
-      "HomeScore": null,
-      "AwayScore": null,
+      "HomeScore": "1",
+      "AwayScore": "0",
       "StartTime": "2024-11-02T12:30:00",
       "HomeTeam": "2986",
       "AwayTeam": "2773",
       "Id": "1250650",
       "MessageId": null,
-      "Status": "NotStarted",
+      "Status": "37'",
       "League": "18173"
     },
     {
