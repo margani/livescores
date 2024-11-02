@@ -940,14 +940,14 @@
       "League": "18173"
     },
     {
-      "HomeScore": "0",
+      "HomeScore": "1",
       "AwayScore": "0",
       "StartTime": "2024-11-02T15:00:00",
       "HomeTeam": "3928",
       "AwayTeam": "12633",
       "Id": "1250644",
       "MessageId": null,
-      "Status": "5'",
+      "Status": "48'",
       "League": "18173"
     },
     {
@@ -958,29 +958,29 @@
       "AwayTeam": "2901",
       "Id": "1250658",
       "MessageId": null,
-      "Status": "4'",
+      "Status": "HalfTime",
       "League": "18173"
     },
     {
       "HomeScore": "0",
-      "AwayScore": "0",
+      "AwayScore": "1",
       "StartTime": "2024-11-02T15:00:00",
       "HomeTeam": "3340",
       "AwayTeam": "2918",
       "Id": "1250645",
       "MessageId": null,
-      "Status": "5'",
+      "Status": "47'",
       "League": "18173"
     },
     {
-      "HomeScore": "0",
+      "HomeScore": "1",
       "AwayScore": "0",
       "StartTime": "2024-11-02T15:00:00",
       "HomeTeam": "3060",
       "AwayTeam": "252",
       "Id": "1250652",
       "MessageId": null,
-      "Status": "4'",
+      "Status": "HalfTime",
       "League": "18173"
     },
     {
@@ -991,7 +991,7 @@
       "AwayTeam": "2917",
       "Id": "1250655",
       "MessageId": null,
-      "Status": "5'",
+      "Status": "46'",
       "League": "18173"
     },
     {
@@ -1006,25 +1006,25 @@
       "League": "18173"
     },
     {
-      "HomeScore": null,
-      "AwayScore": null,
+      "HomeScore": "1",
+      "AwayScore": "0",
       "StartTime": "2024-11-02T16:00:00",
       "HomeTeam": "3910",
       "AwayTeam": "4715",
       "Id": "1257602",
       "MessageId": null,
-      "Status": "NotStarted",
+      "Status": "4'",
       "League": "18227"
     },
     {
-      "HomeScore": "1",
+      "HomeScore": "3",
       "AwayScore": "0",
       "StartTime": "2024-11-02T14:30:00",
       "HomeTeam": "2940",
       "AwayTeam": "2828",
       "Id": "1279340",
       "MessageId": null,
-      "Status": "34'",
+      "Status": "75'",
       "League": "18418"
     },
     {
