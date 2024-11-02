@@ -6,6 +6,8 @@ import { Jimp } from 'jimp';
 const LS_API_URL = 'https://prod-cdn-public-api.livescore.com/v1/api'
 const LS_TEAM_API_URL = 'https://prod-cdn-team-api.livescore.com/v1/api/app/team'
 const DATA_FILEPATH = 'src/data.json';
+const GEN_FOLDER_NAME = 'generated'
+
 
 function getData(): any {
     return JSON.parse(fs.readFileSync(DATA_FILEPATH, 'utf8'))
@@ -103,7 +105,12 @@ async function renderLeagueTable(leagueId: string) {
         season: '2024/25'
     });
 
-    const generatedImageFilePath: `${string}.${string}` = `generated/table-${leagueId}.png`
+    const folderName = GEN_FOLDER_NAME
+    if (!fs.existsSync(folderName)) {
+        fs.mkdirSync(folderName);
+    }
+
+    const generatedImageFilePath: `${string}.${string}` = `${folderName}/table-${leagueId}.png`
     await renderHtmlToImage(htmlString, generatedImageFilePath)
         .then(() => console.log('Image saved as output.png'))
         .catch(console.error);
