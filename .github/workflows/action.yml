@@ -19,7 +19,7 @@ jobs:
 
       - name: Get Today Events
         if: github.event.schedule == '00 8 * * *' || github.event_name == 'workflow_dispatch'
-        run: .\src\scripts\actions.ps1 -Action get-event-incidents
+        run: .\src\scripts\actions.ps1 -Action get-today-events
         shell: pwsh
 
       - name: Get Event Incidents
