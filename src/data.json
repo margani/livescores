@@ -483,6 +483,366 @@
       "Abbreviation": "LEN",
       "Name": "Lens",
       "Id": "4715"
+    },
+    {
+      "Id": "2865",
+      "Name": "Brentford",
+      "Abbreviation": "BRE",
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/9937.png"
+    },
+    {
+      "Id": "2872",
+      "Name": "Fulham",
+      "Abbreviation": "FUL",
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/9879.png"
+    },
+    {
+      "Id": "4707",
+      "Name": "RB Leipzig",
+      "Abbreviation": "RBL",
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/teambadge/rb-leipzig-2024.png"
+    },
+    {
+      "Id": "3632",
+      "Name": "Eintracht Frankfurt",
+      "Abbreviation": "ETF",
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/9810.png"
+    },
+    {
+      "Id": "15",
+      "Name": "Bayer Leverkusen",
+      "Abbreviation": "B04",
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/8178.png"
+    },
+    {
+      "Id": "365",
+      "Name": "Freiburg",
+      "Abbreviation": "SCF",
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/8358.png"
+    },
+    {
+      "Id": "4378",
+      "Name": "VfB Stuttgart",
+      "Abbreviation": "STU",
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/10269.png"
+    },
+    {
+      "Id": "448",
+      "Name": "Borussia Dortmund",
+      "Abbreviation": "DOR",
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/9789.png"
+    },
+    {
+      "Id": "318",
+      "Name": "Augsburg",
+      "Abbreviation": "AUG",
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/8406.png"
+    },
+    {
+      "Id": "3727",
+      "Name": "Werder Bremen",
+      "Abbreviation": "SVW",
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/8697.png"
+    },
+    {
+      "Id": "5278",
+      "Name": "FC Heidenheim",
+      "Abbreviation": "HEI",
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/94937.png"
+    },
+    {
+      "Id": "364",
+      "Name": "Borussia M'gladbach",
+      "Abbreviation": "BMG",
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/9788.png"
+    },
+    {
+      "Id": "5",
+      "Name": "Wolfsburg",
+      "Abbreviation": "WOB",
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/8721.png"
+    },
+    {
+      "Id": "3333",
+      "Name": "Hoffenheim",
+      "Abbreviation": "TSG",
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/8226.png"
+    },
+    {
+      "Id": "5258",
+      "Name": "St. Pauli",
+      "Abbreviation": "PAU",
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/8152.png"
+    },
+    {
+      "Id": "5294",
+      "Name": "Holstein Kiel",
+      "Abbreviation": "HKI",
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/8150.png"
+    },
+    {
+      "Id": "3416",
+      "Name": "Atalanta",
+      "Abbreviation": "ATT",
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/8524.png"
+    },
+    {
+      "Id": "3951",
+      "Name": "Fiorentina",
+      "Abbreviation": "FIO",
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/8535.png"
+    },
+    {
+      "Id": "3459",
+      "Name": "Lazio",
+      "Abbreviation": "LAZ",
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/8543.png"
+    },
+    {
+      "Id": "3178",
+      "Name": "Torino",
+      "Abbreviation": "TOR",
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/9804.png"
+    },
+    {
+      "Id": "3903",
+      "Name": "Bologna",
+      "Abbreviation": "BGN",
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/9857.png"
+    },
+    {
+      "Id": "4237",
+      "Name": "Roma",
+      "Abbreviation": "ROM",
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/8686.png"
+    },
+    {
+      "Id": "4231",
+      "Name": "Hellas Verona",
+      "Abbreviation": "HEL",
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/9876.png"
+    },
+    {
+      "Id": "4227",
+      "Name": "Como 1907",
+      "Abbreviation": "COM",
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/10171.png"
+    },
+    {
+      "Id": "2987",
+      "Name": "Cagliari",
+      "Abbreviation": "CAG",
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/8529.png"
+    },
+    {
+      "Id": "4411",
+      "Name": "Lecce",
+      "Abbreviation": "LEC",
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/9888.png"
+    },
+    {
+      "Id": "4652",
+      "Name": "Venezia",
+      "Abbreviation": "VEN",
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/7881.png"
+    },
+    {
+      "Id": "3179",
+      "Name": "Genoa",
+      "Abbreviation": "GEN",
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/10233.png"
+    },
+    {
+      "Id": "4328",
+      "Name": "AS Monaco",
+      "Abbreviation": "ASM",
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/9829.png"
+    },
+    {
+      "Id": "3880",
+      "Name": "Lille",
+      "Abbreviation": "LIL",
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/8639.png"
+    },
+    {
+      "Id": "3656",
+      "Name": "Lyon",
+      "Abbreviation": "LYO",
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/9748.png"
+    },
+    {
+      "Id": "3265",
+      "Name": "Reims",
+      "Abbreviation": "REI",
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/9837.png"
+    },
+    {
+      "Id": "3532",
+      "Name": "Nice",
+      "Abbreviation": "NCE",
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/9831.png"
+    },
+    {
+      "Id": "3410",
+      "Name": "Strasbourg",
+      "Abbreviation": "STR",
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/9848.png"
+    },
+    {
+      "Id": "3498",
+      "Name": "Brest",
+      "Abbreviation": "BRE",
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/8521.png"
+    },
+    {
+      "Id": "205",
+      "Name": "Rennes",
+      "Abbreviation": "REN",
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/9851.png"
+    },
+    {
+      "Id": "3940",
+      "Name": "Nantes",
+      "Abbreviation": "NAN",
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/9830.png"
+    },
+    {
+      "Id": "196",
+      "Name": "Auxerre",
+      "Abbreviation": "AUX",
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/8583.png"
+    },
+    {
+      "Id": "3531",
+      "Name": "Angers",
+      "Abbreviation": "ANG",
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/8121.png"
+    },
+    {
+      "Id": "3497",
+      "Name": "Toulouse",
+      "Abbreviation": "TOU",
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/9941.png"
+    },
+    {
+      "Id": "3911",
+      "Name": "Saint-Etienne",
+      "Abbreviation": "SAI",
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/9853.png"
+    },
+    {
+      "Id": "264",
+      "Name": "Le Havre",
+      "Abbreviation": "LEH",
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/9746.png"
+    },
+    {
+      "Id": "3555",
+      "Name": "Montpellier",
+      "Abbreviation": "MPL",
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/teambadge/montpellier-2024.png"
+    },
+    {
+      "Id": "2911",
+      "Name": "Barcelona",
+      "Abbreviation": "FCB",
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/8634.png"
+    },
+    {
+      "Id": "4009",
+      "Name": "Real Madrid",
+      "Abbreviation": "MAD",
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/8633.png"
+    },
+    {
+      "Id": "3608",
+      "Name": "Villarreal",
+      "Abbreviation": "VIL",
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/10205.png"
+    },
+    {
+      "Id": "463",
+      "Name": "Osasuna",
+      "Abbreviation": "OSA",
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/8371.png"
+    },
+    {
+      "Id": "2912",
+      "Name": "Atletico Madrid",
+      "Abbreviation": "ATM",
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/teambadge/atletico-madrid-2024.png"
+    },
+    {
+      "Id": "3352",
+      "Name": "Real Betis",
+      "Abbreviation": "BET",
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/8603.png"
+    },
+    {
+      "Id": "4253",
+      "Name": "Rayo Vallecano",
+      "Abbreviation": "RAY",
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/8370.png"
+    },
+    {
+      "Id": "12634",
+      "Name": "Sevilla",
+      "Abbreviation": "SEV",
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/8302.png"
+    },
+    {
+      "Id": "4162",
+      "Name": "Celta Vigo",
+      "Abbreviation": "CLV",
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/9910.png"
+    },
+    {
+      "Id": "3586",
+      "Name": "Girona",
+      "Abbreviation": "GIR",
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/7732.png"
+    },
+    {
+      "Id": "4169",
+      "Name": "Real Sociedad",
+      "Abbreviation": "SOC",
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/8560.png"
+    },
+    {
+      "Id": "3452",
+      "Name": "Leganes",
+      "Abbreviation": "LEG",
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/7854.png"
+    },
+    {
+      "Id": "3379",
+      "Name": "Getafe",
+      "Abbreviation": "GET",
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/8305.png"
+    },
+    {
+      "Id": "12635",
+      "Name": "Espanyol",
+      "Abbreviation": "ESY",
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/8558.png"
+    },
+    {
+      "Id": "3358",
+      "Name": "Las Palmas",
+      "Abbreviation": "LAP",
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/8306.png"
+    },
+    {
+      "Id": "3658",
+      "Name": "Real Valladolid",
+      "Abbreviation": "VLL",
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/10281.png"
+    },
+    {
+      "Id": "4008",
+      "Name": "Valencia",
+      "Abbreviation": "VAL",
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/10267.png"
     }
   ],
   "events": [

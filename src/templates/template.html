@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <meta name="description" content=""/>
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors"/>
+    <meta name="generator" content="Jekyll v3.8.5"/>
+    <title>Test Template</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+/>
+    {% include "src/templates/reset-css.html" %}
+    {% include "src/templates/common-css.html" %}
+  </head>
+  <body>
+    <main role="main">
+      <div style="display: flex; margin-bottom: 20px; align-items: center; flex-direction: row">
+        <img
+          src="{{ league.BadgeUrl }}"
+          style="
+            background-color: rgb(148, 148, 148);
+            border-radius: 50%;
+            padding: 5px;
+            width: 48px;
+            display: inline;
+            margin-right: 20px;
+            filter: drop-shadow(1px 0 0 #888);
+          "
+/>
+        <div class="display:flex; flex-direction:column;">
+          <h3>{{ league.Country }} {{ league.Name }}</h3>
+          <h4>Match Week {{ matchWeek }}, {{ season }}</h4>
+        </div>
+      </div>
+      <table width="100%" cellspacing="0" cellpadding="0">
+        <tr>
+          <th style="width: 24px">Pos</th>
+          <th style="width: 24px"></th>
+          <th style="text-align: left">Club</th>
+          <th style="width: 24px">P</th>
+          <th style="width: 24px">GD</th>
+          <th style="width: 24px">Pts</th>
+        </tr>
+        {% for standing in standings %}
+          <tr>
+            <td>{{ standing.position }}</td>
+            <td style="padding: 0">
+              <img
+              src="{{ standing.team.LogoUrl }}"
+              style="width: 24px; height: 24px; display: block; filter: drop-shadow(1px 0 0 #888);"
+/>
+            </td>
+            <td style="text-align: left">{{ standing.team.Name }}</td>
+            <td>{{ standing.played }}</td>
+            <td>{{ standing.goalDifference }}</td>
+            <td>{{ standing.points }}</td>
+          </tr>
+        {% endfor %}
+      </table>
+    </main>
+  </body>
+</html>

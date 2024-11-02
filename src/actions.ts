@@ -1,7 +1,8 @@
 import { ArgumentParser } from 'argparse';
+import { renderLeaguesTables } from './helpers.js';
 
 interface Actions {
-    [key: string]: () => void;
+    [key: string]: () => Promise<void>;
 }
 
 const parser = new ArgumentParser();
@@ -11,16 +12,18 @@ const args = parser.parse_args();
 const action = args.action;
 
 const actions: Actions = {
-    "sample-action": () => {
-        console.log("doing action");
+    "generate-league-table": async () => {
+        await renderLeaguesTables();
     },
 };
 
 if (!action || !actions[action]) {
-    console.log(`Unknown action: ${action}, pass --action=<action>`);
+    console.log(`Unknown action: [${action}], pass --action=<action>`);
     process.exit(1);
 }
 
-console.log(`[${action}] Executing action`);
-actions[action]();
-console.log(`[${action}] Action completed`);
+(async () => {
+    console.log(`[${action}] Executing action`);
+    await actions[action]();
+    console.log(`[${action}] Action completed`);
+})();
