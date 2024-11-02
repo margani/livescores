@@ -12,7 +12,7 @@ $EventStatusName = @{
     "FT"      = "FullTime"
     "Unknown" = "Unknown"
 }
-$DataFilePath = "./src/scripts/data.json"
+$DataFilePath = "./src/data.json"
 Function Get-Data() { return Get-Content -Path $DataFilePath -Raw | ConvertFrom-Json }
 Function Save-Data($Data) { $Data | ConvertTo-Json -Depth 100 | Set-Content -Path $DataFilePath }
 Function Get-LeagueById($Id) {
@@ -225,30 +225,17 @@ Function Get-EventHighlight($EventId) {
         MessageId    = $null
     }
 }
-Function Get-LeagueTables($Data) {
+Function Send-LeagueTables() {
+    $Data = Get-Data
     $Data.leagues | ForEach-Object {
         $league = $_
-        $url = "https://prod-cdn-public-api.livescore.com/v1/api/app/stage/soccer/$($league.CountrySlug)/$($league.Slug)/0"
-        $response = Invoke-WebRequest -Uri $url -SkipCertificateCheck -SkipHeaderValidation -SkipHttpErrorCheck
+        $tableImageFilePath = "./generated/table-$($league.Id).png"
 
-        $leagueData = $response.Content | ConvertFrom-Json
-        if (!$leagueData -or $response.Content -eq "{}") {
+        if (!(Test-Path -Path $tableImageFilePath)) {
             return
         }
 
-        $league.Tables = @()
-        $leagueData.Stages | Select-Object -First 1 | ForEach-Object {
-            $stage = $_
-            $league.Tables = $stage.Tables | ForEach-Object {
-                $table = $_
-                $table.Teams = $table.Teams | ForEach-Object {
-                    $team = $_
-                    $team.LogoUrl = "https://lsm-static-prod.livescore.com/medium/$($team.Img)"
-                    return $team
-                }
-                return $table
-            }
-        }
+        Send-PhotoByFile -PhotoFilePath $tableImageFilePath -Caption "🏆 $($league.Country) - $($league.Name)" | Out-Null
     }
 }
 Function Update-Leagues() {
@@ -477,16 +464,16 @@ Function Send-Message($Message, $ReplyToMessageId = $null, $Url = $null) {
         $body.Remove("link_preview_options")
     }
 
-    return Send-TelegramAPI -Action "sendMessage" -Body $body
+    return Send-TelegramAPIJson -Action "sendMessage" -Body $body
 }
-Function Send-Photo($PhotoUrl, $Caption, $ReplyToMessageId = $null) {
-    return Send-TelegramAPI -Action "sendPhoto" -Body @{
+Function Send-PhotoByUrl($PhotoUrl, $Caption, $ReplyToMessageId = $null) {
+    return Send-TelegramAPIJson -Action "sendPhoto" -Body @{
         photo               = $PhotoUrl
         caption             = $Caption
         reply_to_message_id = $ReplyToMessageId
     }
 }
-Function Send-TelegramAPI($Action, $Body) {
+Function Send-TelegramAPIJson($Action, $Body) {
     try {
         Add-MemberIfNotExist -Object $Body -Name chat_id -Value "$env:CHAT_ID"
         Add-MemberIfNotExist -Object $Body -Name parse_mode -Value "MarkdownV2"
@@ -504,6 +491,32 @@ Function Send-TelegramAPI($Action, $Body) {
 
         Write-Host "$Action is done successfully."
         return $result.result.message_id
+    }
+    catch {
+        Write-Host "Error doing $($Action):"
+        Write-Host $_
+    }
+}
+Function Send-PhotoByFile($PhotoFilePath, $Caption, $ReplyToMessageId = $null) {
+    return Send-TelegramAPIFormData -Action "sendPhoto" -Body @{
+        photo               = Get-Item -LiteralPath $PhotoFilePath
+        caption             = $Caption
+        reply_to_message_id = $ReplyToMessageId
+    }
+}
+Function Send-TelegramAPIFormData($Action, $Body, $FilePropertyName, $FilePath) {
+    try {
+        Add-MemberIfNotExist -Object $Body -Name parse_mode -Value "MarkdownV2"
+
+        $Url = "https://api.telegram.org/bot$($env:BOT_TOKEN)/$($Action)?chat_id=$($env:CHAT_ID)"
+        $response = Invoke-RestMethod -Uri $Url -Method Post -Form $Body -SkipCertificateCheck -SkipHeaderValidation -SkipHttpErrorCheck
+        if (!$response.ok) {
+            Write-Host $response
+            throw "Error sending $Action."
+        }
+
+        Write-Host "$Action is done successfully."
+        return $response.result.message_id
     }
     catch {
         Write-Host "Error doing $($Action):"

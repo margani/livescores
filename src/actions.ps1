@@ -23,6 +23,10 @@ $actions = @{
         Send-AllFullTimeEvents
         Send-EventsHighlights
     }
+
+    "send-league-tables" = {
+        Send-LeagueTables
+    }
 }
 
 if ($null -eq $actions[$Action]) {

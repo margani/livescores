@@ -8,8 +8,10 @@ on:
     - cron: "0 23 * * SUN"
 
 env:
-  BOT_TOKEN: '${{ secrets.TELEGRAM_BOT_TOKEN }}'
-  CHAT_ID: '${{ secrets.TELEGRAM_CHAT_ID }}'
+  BOT_TOKEN: "${{ secrets.TELEGRAM_BOT_TOKEN }}"
+  CHAT_ID: "${{ secrets.TELEGRAM_CHAT_ID }}"
+  TODAY_MSG_SCHEDULE: ${{ github.event.schedule == '00 8 * * *' || github.event_name == 'workflow_dispatch' }}
+  TABLE_GEN_SCHEDULE: ${{ github.event.schedule == '0 23 * * SUN' || github.event_name == 'workflow_dispatch' }}
 
 jobs:
   getLiveScores:
@@ -18,12 +20,40 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Get Today Events
-        if: github.event.schedule == '00 8 * * *' || github.event_name == 'workflow_dispatch'
-        run: .\src\scripts\actions.ps1 -Action get-today-events
+        if: env.TODAY_MSG_SCHEDULE
+        run: .\src\actions.ps1 -Action get-today-events
         shell: pwsh
 
       - name: Get Event Incidents
-        run: .\src\scripts\actions.ps1 -Action get-event-incidents
+        run: .\src\actions.ps1 -Action get-event-incidents
+        shell: pwsh
+
+      - name: Install pnpm
+        if: env.TABLE_GEN_SCHEDULE
+        uses: pnpm/action-setup@v4
+        with:
+          version: 9
+          run_install: false
+
+      - name: Install node.js 20.x
+        if: env.TABLE_GEN_SCHEDULE
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'pnpm'
+
+      - name: Install dependencies
+        if: env.TABLE_GEN_SCHEDULE
+        run: pnpm install
+
+      - name: Generate tables
+        if: env.TABLE_GEN_SCHEDULE
+        run: pnpm start --action generate-league-table
+        shell: pwsh
+
+      - name: Get tables
+        if: env.TABLE_GEN_SCHEDULE
+        run: .\src\actions.ps1 -Action send-league-tables
         shell: pwsh
 
       - uses: stefanzweifel/git-auto-commit-action@v5
