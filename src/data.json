@@ -1399,14 +1399,14 @@
       }
     },
     {
-      "HomeScore": "0",
+      "HomeScore": "2",
       "AwayScore": "1",
       "StartTime": "2024-11-02T17:30:00",
       "HomeTeam": "2985",
       "AwayTeam": "2772",
       "Id": "1250647",
       "MessageId": null,
-      "Status": "65'",
+      "Status": "73'",
       "League": "18173"
     },
     {
@@ -1444,8 +1444,8 @@
       "HomeTeam": "3861",
       "AwayTeam": "4238",
       "Id": "1280011",
-      "MessageId": null,
-      "Status": "90'",
+      "MessageId": 217,
+      "Status": "FullTime",
       "League": "18420"
     },
     {
