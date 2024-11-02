@@ -1401,7 +1401,7 @@
       "AwayTeam": "2772",
       "Id": "1250647",
       "MessageId": null,
-      "Status": "26'",
+      "Status": "37'",
       "League": "18173"
     },
     {
@@ -1411,8 +1411,8 @@
       "HomeTeam": "3910",
       "AwayTeam": "4715",
       "Id": "1257602",
-      "MessageId": null,
-      "Status": "90+3'",
+      "MessageId": 215,
+      "Status": "FullTime",
       "League": "18227"
     },
     {
@@ -1440,7 +1440,7 @@
       "AwayTeam": "4238",
       "Id": "1280011",
       "MessageId": null,
-      "Status": "HalfTime",
+      "Status": "45'",
       "League": "18420"
     },
     {
