@@ -21,11 +21,11 @@ jobs:
 
       - name: Get Today Events
         if: env.TODAY_MSG_SCHEDULE
-        run: .\src\scripts\actions.ps1 -Action get-today-events
+        run: .\src\actions.ps1 -Action get-today-events
         shell: pwsh
 
       - name: Get Event Incidents
-        run: .\src\scripts\actions.ps1 -Action get-event-incidents
+        run: .\src\actions.ps1 -Action get-event-incidents
         shell: pwsh
 
       - name: Use Node.js 20.x
@@ -45,7 +45,7 @@ jobs:
 
       - name: Get tables
         if: env.TABLE_GEN_SCHEDULE
-        run: .\src\scripts\actions.ps1 -Action send-league-tables
+        run: .\src\actions.ps1 -Action send-league-tables
         shell: pwsh
 
       - uses: stefanzweifel/git-auto-commit-action@v5
