@@ -30,4 +30,6 @@ if ($null -eq $actions[$Action]) {
     Exit
 }
 
+Write-Host "[$Action] Executing action"
 $actions[$Action].Invoke()
+Write-Host "[$Action] Action completed"
