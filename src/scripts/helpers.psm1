@@ -196,7 +196,6 @@ Function Get-EventIncidents($EventId) {
     return $incidents
 }
 Function Get-EventDetails($Id) {
-    Write-Host "Getting event details: $Id"
     $url = "https://prod-public-api.livescore.com/v1/api/app/scoreboard/soccer/$Id"
     $response = Invoke-WebRequest -Uri $url -SkipCertificateCheck -SkipHeaderValidation -SkipHttpErrorCheck
 
