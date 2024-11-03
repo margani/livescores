@@ -24,7 +24,16 @@ $actions = @{
         Send-EventsHighlights
     }
 
-    "send-league-tables" = {
+    "send-league-tables"  = {
+        @(
+            "pnpm install"
+            "npx puppeteer browsers install chrome"
+            "pnpm start --action generate-league-table"
+        ) | ForEach-Object {
+            Write-Host "Executing: [$_]"
+            Invoke-Expression $_
+        }
+
         Send-LeagueTables
     }
 }

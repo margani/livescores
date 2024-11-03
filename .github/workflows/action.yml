@@ -3,15 +3,13 @@ name: Get Livescores
 on:
   workflow_dispatch:
   schedule:
-    - cron: "00 8 * * *"
+    - cron: "0 6 * * *"
     - cron: "*/5 6-22 * * *"
     - cron: "0 23 * * SUN"
 
 env:
   BOT_TOKEN: "${{ secrets.TELEGRAM_BOT_TOKEN }}"
   CHAT_ID: "${{ secrets.TELEGRAM_CHAT_ID }}"
-  TODAY_MSG_SCHEDULE: ${{ github.event.schedule == '00 8 * * *' || github.event_name == 'workflow_dispatch' }}
-  TABLE_GEN_SCHEDULE: ${{ github.event.schedule == '0 23 * * SUN' || github.event_name == 'workflow_dispatch' }}
 
 jobs:
   getLiveScores:
@@ -20,7 +18,7 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Get Today Events
-        if: env.TODAY_MSG_SCHEDULE == 'true'
+        if: github.event.schedule == '0 6 * * *' || github.event_name == 'workflow_dispatch'
         run: .\src\actions.ps1 -Action get-today-events
         shell: pwsh
 
@@ -29,35 +27,21 @@ jobs:
         shell: pwsh
 
       - name: Install pnpm
-        if: env.TABLE_GEN_SCHEDULE == 'true'
+        if: github.event.schedule == '0 23 * * SUN' || github.event_name == 'workflow_dispatch'
         uses: pnpm/action-setup@v4
         with:
           version: 9
           run_install: false
 
       - name: Install node.js 20.x
-        if: env.TABLE_GEN_SCHEDULE == 'true'
+        if: github.event.schedule == '0 23 * * SUN' || github.event_name == 'workflow_dispatch'
         uses: actions/setup-node@v4
         with:
           node-version: 20
           cache: 'pnpm'
 
-      - name: Install dependencies
-        if: env.TABLE_GEN_SCHEDULE == 'true'
-        run: pnpm install
-
-      - name: Install browsers
-        if: env.TABLE_GEN_SCHEDULE == 'true'
-        run: npx puppeteer browsers install chrome
-        shell: pwsh
-
-      - name: Generate tables
-        if: env.TABLE_GEN_SCHEDULE == 'true'
-        run: pnpm start --action generate-league-table
-        shell: pwsh
-
-      - name: Get tables
-        if: env.TABLE_GEN_SCHEDULE == 'true'
+      - name: Generate and send tables
+        if: github.event.schedule == '0 23 * * SUN' || github.event_name == 'workflow_dispatch'
         run: .\src\actions.ps1 -Action send-league-tables
         shell: pwsh
 
