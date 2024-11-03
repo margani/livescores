@@ -1,4 +1,4 @@
-﻿$ShouldEscapeCharacters = @('_', '*', '[', ']', '(', ')', '~', '`', '>', '#', '+', '-', '=', '|', '{', '}', '.', '!')
+$ShouldEscapeCharacters = @('_', '*', '[', ']', '(', ')', '~', '`', '>', '#', '+', '-', '=', '|', '{', '}', '.', '!')
 $UserAgent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0"
 $EventStatusIcons = @{
     "NotStarted" = "🕒"
@@ -187,7 +187,11 @@ Function Get-EventIncidents($EventId) {
                 Reason    = $inc.IR
                 HomeScore = $homeScore
                 AwayScore = $awayScore
-                Player    = $inc.Pn
+                Player    = @{
+                    Name      = $inc.Pn
+                    FirstName = $inc.Fn
+                    LastName  = $inc.Ln
+                }
                 Assist    = $assist
             }
         }
@@ -434,7 +438,12 @@ Function Get-FullEventAsMessage($SavedEvent, $Incidents) {
     $eachLength = ($lineLength - $maxMinuteWidth - 1) / 2
     $Incidents | ForEach-Object {
         $inc = $_
-        $line = "$($inc.Type) $(Get-EscapedText($inc.Player))"
+        $playerName = $inc.Player.LastName
+        if ($inc.Player.FirstName) {
+            $playerName = "$($inc.Player.FirstName[0]). $playerName"
+        }
+
+        $line = "$($inc.Type) $(Get-EscapedText($playerName))"
         if ($line.Length -gt ($eachLength - 3)) {
             $line = $line.Substring(0, $eachLength - 3) + "..."
         }
