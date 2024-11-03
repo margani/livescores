@@ -1470,7 +1470,13 @@
       "Id": "1280005",
       "MessageId": 221,
       "Status": "FullTime",
-      "League": "18420"
+      "League": "18420",
+      "Highlight": {
+        "VideoUrl": "https://www.youtube.com/watch?v=eVnE4zJo5Rg",
+        "PublishedAt": "2024-11-02T22:27:21+00:00",
+        "ThumbnailUrl": "https://i.ytimg.com/vi/eVnE4zJo5Rg/mqdefault.jpg",
+        "MessageId": 222
+      }
     }
   ]
 }
