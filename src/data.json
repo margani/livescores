@@ -1504,7 +1504,13 @@
       "MessageId": 234,
       "HomeScore": "1",
       "AwayScore": "1",
-      "Status": "FullTime"
+      "Status": "FullTime",
+      "Highlight": {
+        "VideoUrl": "https://www.youtube.com/watch?v=umNaiyrAHRw",
+        "MessageId": 235,
+        "ThumbnailUrl": "https://i.ytimg.com/vi/umNaiyrAHRw/mqdefault.jpg",
+        "PublishedAt": "2024-11-03T18:58:30+00:00"
+      }
     },
     {
       "Id": "1251225",
