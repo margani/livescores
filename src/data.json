@@ -1535,10 +1535,10 @@
       "AwayTeam": "4652",
       "StartTime": "2024-11-03T19:45:00",
       "League": "18420",
-      "MessageId": null,
+      "MessageId": 236,
       "HomeScore": "1",
       "AwayScore": "0",
-      "Status": "90+5'"
+      "Status": "FullTime"
     }
   ]
 }
