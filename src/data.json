@@ -1485,9 +1485,9 @@
       "StartTime": "2024-11-03T14:00:00",
       "League": "18173",
       "MessageId": null,
-      "HomeScore": null,
-      "AwayScore": null,
-      "Status": "NotStarted"
+      "HomeScore": "0",
+      "AwayScore": "0",
+      "Status": "1'"
     },
     {
       "Id": "1250648",
