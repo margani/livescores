@@ -135,6 +135,14 @@
       "CountrySlug": "england",
       "BadgeUrl": "https://static.livescore.com/competition/high/2023-england-fa-cup.png",
       "Id": "19590"
+    },
+    {
+      "Slug": "afc-champions-league-elite-west",
+      "CountrySlug": "asia",
+      "Id": "19044",
+      "BadgeUrl": "https://static.livescore.com/competition/high/afc-champions-league-elite.png",
+      "Name": "AFC Champions League Elite: West",
+      "Country": "Asia"
     }
   ],
   "teams": [
@@ -845,6 +853,66 @@
       "Name": "Valencia",
       "Abbreviation": "VAL",
       "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/10267.png"
+    },
+    {
+      "Id": "4610",
+      "Name": "Al-Gharafa",
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/101897.png",
+      "Abbreviation": "ALG"
+    },
+    {
+      "Id": "3447",
+      "Name": "Al Hilal",
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/2529.png",
+      "Abbreviation": "HIL"
+    },
+    {
+      "Id": "4379",
+      "Name": "Al Ahli",
+      "Abbreviation": "AHL",
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/2530.png"
+    },
+    {
+      "Id": "4450",
+      "Name": "Al-Sadd",
+      "Abbreviation": "ALS",
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/101895.png"
+    },
+    {
+      "Id": "346",
+      "Name": "Al Nassr",
+      "Abbreviation": "NAS",
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/101918.png"
+    },
+    {
+      "Id": "4682",
+      "Name": "Al-Wasl",
+      "Abbreviation": "ALW",
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/102111.png"
+    },
+    {
+      "Id": "7104",
+      "Name": "Pakhtakor Tashkent",
+      "Abbreviation": "PAK",
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/102141.png"
+    },
+    {
+      "Id": "6418",
+      "Name": "Al Shorta",
+      "Abbreviation": "ALS",
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/101655.png"
+    },
+    {
+      "Id": "4670",
+      "Name": "Al-Ain",
+      "Abbreviation": "ALA",
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/102117.png"
+    },
+    {
+      "Id": "4600",
+      "Name": "Al-Rayyan",
+      "Abbreviation": "ALR",
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/101898.png"
     }
   ],
   "events": [
@@ -1551,13 +1619,35 @@
     {
       "Id": "1250646",
       "AwayScore": "0",
-      "Status": "15'",
+      "Status": "23'",
       "HomeScore": "0",
       "HomeTeam": "2872",
       "League": "18173",
       "StartTime": "2024-11-04T20:00:00",
       "AwayTeam": "2865",
       "MessageId": null
+    },
+    {
+      "Status": "FullTime",
+      "League": "19044",
+      "HomeTeam": "5059",
+      "Id": "1350033",
+      "AwayScore": "1",
+      "AwayTeam": "4610",
+      "MessageId": 254,
+      "StartTime": "2024-11-04T16:00:00",
+      "HomeScore": "1"
+    },
+    {
+      "Status": "FullTime",
+      "League": "19044",
+      "HomeTeam": "3447",
+      "Id": "1350035",
+      "AwayScore": "0",
+      "AwayTeam": "4592",
+      "MessageId": 255,
+      "StartTime": "2024-11-04T18:00:00",
+      "HomeScore": "3"
     }
   ]
 }
