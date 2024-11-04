@@ -82,6 +82,7 @@ export async function renderLeaguesTables() {
     const leagues = getData().leagues
     for (const league of leagues) {
         await renderLeagueTable(league.Id)
+        break
     }
 }
 
@@ -90,6 +91,16 @@ async function renderLeagueTable(leagueId: string) {
     if (!league) {
         console.error(`League with id ${leagueId} not found`)
         return
+    }
+
+    try {
+        const existingLeagueLogoFilePath = `src/images/leagues/${league.Slug}.png`
+        if (fs.existsSync(existingLeagueLogoFilePath)) {
+            league.LogoLocalUrl = `src/images/leagues/${league.Slug}.png`
+        }
+    } catch (error) {
+        console.error('Error while checking for existing league logo file')
+        console.error(error)
     }
 
     const standings = await getLeagueTable(league)
@@ -110,6 +121,10 @@ async function renderLeagueTable(leagueId: string) {
         fs.mkdirSync(folderName);
     }
 
+    const testHtmlFile = `${folderName}/table-${leagueId}.html`
+    fs.writeFileSync(testHtmlFile, htmlString, 'utf8')
+
+
     const generatedImageFilePath: `${string}.${string}` = `${folderName}/table-${leagueId}.png`
     await renderHtmlToImage(htmlString, generatedImageFilePath)
         .then(() => console.log(`Table for ${league.Name} generated at ${generatedImageFilePath}`))
@@ -122,6 +137,7 @@ async function renderHtmlToImage(htmlString: string, imageFilePath: string) {
     const browser = await puppeteer.launch();
     const page = await browser.newPage();
     await page.setContent(htmlString, { waitUntil: 'load' });
+    await page.waitForNetworkIdle();
     await page.screenshot({ path: imageFilePath, fullPage: true });
     await browser.close();
 }

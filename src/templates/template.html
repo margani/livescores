@@ -19,7 +19,8 @@
   <body>
     <main role="main">
       <div style="display: flex; margin-bottom: 20px; align-items: center; flex-direction: row">
-        <img
+        {% if not league.LogoLocalUrl %}
+          <img
           src="{{ league.BadgeUrl }}"
           style="
             background-color: rgb(148, 148, 148);
@@ -29,10 +30,18 @@
             display: inline;
             margin-right: 20px;
             filter: drop-shadow(1px 0 0 #888);
-          "
-/>
+          "/>
+        {% endif %}
         <div class="display:flex; flex-direction:column;">
-          <h3>{{ league.Country }} {{ league.Name }}</h3>
+          {% if league.LogoLocalUrl %}
+            <img
+            src="{{ league.LogoLocalUrl }}"
+            style="
+            "/>
+          {% else %}
+            <h3>{{ league.Country }}
+              {{ league.Name }}</h3>
+          {% endif %}
           <h4>Match Week {{ matchWeek }}, {{ season }}</h4>
         </div>
       </div>
