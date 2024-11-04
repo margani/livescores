@@ -27,21 +27,21 @@ jobs:
         shell: pwsh
 
       - name: Install pnpm
-        if: github.event.schedule == '0 23 * * SUN' || github.event_name == 'workflow_dispatch'
+        if: github.event.schedule == '0 23 * * SUN'
         uses: pnpm/action-setup@v4
         with:
           version: 9
           run_install: false
 
       - name: Install node.js 20.x
-        if: github.event.schedule == '0 23 * * SUN' || github.event_name == 'workflow_dispatch'
+        if: github.event.schedule == '0 23 * * SUN'
         uses: actions/setup-node@v4
         with:
           node-version: 20
           cache: 'pnpm'
 
       - name: Generate and send tables
-        if: github.event.schedule == '0 23 * * SUN' || github.event_name == 'workflow_dispatch'
+        if: github.event.schedule == '0 23 * * SUN'
         run: .\src\actions.ps1 -Action send-league-tables
         shell: pwsh
 
