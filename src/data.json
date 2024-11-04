@@ -1619,13 +1619,13 @@
     {
       "Id": "1250646",
       "AwayScore": "1",
-      "Status": "90+10'",
+      "Status": "FullTime",
       "HomeScore": "2",
       "HomeTeam": "2872",
       "League": "18173",
       "StartTime": "2024-11-04T20:00:00",
       "AwayTeam": "2865",
-      "MessageId": null
+      "MessageId": 263
     },
     {
       "Status": "FullTime",
