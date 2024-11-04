@@ -1550,9 +1550,9 @@
     },
     {
       "Id": "1250646",
-      "AwayScore": null,
-      "Status": "NotStarted",
-      "HomeScore": null,
+      "AwayScore": "0",
+      "Status": "3'",
+      "HomeScore": "0",
       "HomeTeam": "2872",
       "League": "18173",
       "StartTime": "2024-11-04T20:00:00",
