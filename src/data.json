@@ -1625,7 +1625,13 @@
       "League": "18173",
       "StartTime": "2024-11-04T20:00:00",
       "AwayTeam": "2865",
-      "MessageId": 263
+      "MessageId": 263,
+      "Highlight": {
+        "VideoUrl": "https://www.youtube.com/watch?v=FlEvJp8rZSM",
+        "PublishedAt": "2024-11-04T22:17:24+00:00",
+        "MessageId": 264,
+        "ThumbnailUrl": "https://i.ytimg.com/vi/FlEvJp8rZSM/mqdefault.jpg"
+      }
     },
     {
       "Status": "FullTime",
