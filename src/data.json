@@ -1702,7 +1702,7 @@
     {
       "StartTime": "2024-11-05T17:45:00",
       "AwayTeam": "3586",
-      "Status": "38'",
+      "Status": "HalfTime",
       "AwayScore": "0",
       "League": "19232",
       "HomeScore": "2",
@@ -1713,7 +1713,7 @@
     {
       "StartTime": "2024-11-05T17:45:00",
       "AwayTeam": "6179",
-      "Status": "38'",
+      "Status": "HalfTime",
       "AwayScore": "2",
       "League": "19232",
       "HomeScore": "1",
