@@ -1711,7 +1711,12 @@
       "MessageId": 266,
       "Id": "1366245",
       "HomeTeam": "497",
-      "Highlight": null
+      "Highlight": {
+        "MessageId": 269,
+        "ThumbnailUrl": "https://i.ytimg.com/vi/lORVKIcg8Xk/mqdefault.jpg",
+        "PublishedAt": "2024-11-05T20:04:54+00:00",
+        "VideoUrl": "https://www.youtube.com/watch?v=lORVKIcg8Xk"
+      }
     },
     {
       "StartTime": "2024-11-05T17:45:00",
@@ -1733,7 +1738,7 @@
     {
       "StartTime": "2024-11-05T20:00:00",
       "AwayTeam": "4328",
-      "Status": "38'",
+      "Status": "45+2'",
       "AwayScore": "0",
       "League": "19232",
       "HomeScore": "0",
@@ -1744,7 +1749,7 @@
     {
       "StartTime": "2024-11-05T20:00:00",
       "AwayTeam": "2963",
-      "Status": "39'",
+      "Status": "45+3'",
       "AwayScore": "0",
       "League": "19232",
       "HomeScore": "0",
@@ -1755,10 +1760,10 @@
     {
       "StartTime": "2024-11-05T20:00:00",
       "AwayTeam": "4707",
-      "Status": "39'",
+      "Status": "45+3'",
       "AwayScore": "1",
       "League": "19232",
-      "HomeScore": "1",
+      "HomeScore": "2",
       "MessageId": null,
       "Id": "1366148",
       "HomeTeam": "4700"
@@ -1766,7 +1771,7 @@
     {
       "StartTime": "2024-11-05T20:00:00",
       "AwayTeam": "4238",
-      "Status": "39'",
+      "Status": "45+2'",
       "AwayScore": "0",
       "League": "19232",
       "HomeScore": "1",
@@ -1777,7 +1782,7 @@
     {
       "StartTime": "2024-11-05T20:00:00",
       "AwayTeam": "15",
-      "Status": "40'",
+      "Status": "45+3'",
       "AwayScore": "0",
       "League": "19232",
       "HomeScore": "0",
@@ -1788,8 +1793,8 @@
     {
       "StartTime": "2024-11-05T20:00:00",
       "AwayTeam": "2988",
-      "Status": "38'",
-      "AwayScore": "1",
+      "Status": "45+1'",
+      "AwayScore": "2",
       "League": "19232",
       "HomeScore": "1",
       "MessageId": null,
@@ -1799,7 +1804,7 @@
     {
       "StartTime": "2024-11-05T20:00:00",
       "AwayTeam": "12633",
-      "Status": "39'",
+      "Status": "HalfTime",
       "AwayScore": "1",
       "League": "19232",
       "HomeScore": "1",
