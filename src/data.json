@@ -1702,10 +1702,10 @@
     {
       "StartTime": "2024-11-05T17:45:00",
       "AwayTeam": "3586",
-      "Status": "24'",
+      "Status": "38'",
       "AwayScore": "0",
       "League": "19232",
-      "HomeScore": "1",
+      "HomeScore": "2",
       "MessageId": null,
       "Id": "1366245",
       "HomeTeam": "497"
@@ -1713,8 +1713,8 @@
     {
       "StartTime": "2024-11-05T17:45:00",
       "AwayTeam": "6179",
-      "Status": "24'",
-      "AwayScore": "1",
+      "Status": "38'",
+      "AwayScore": "2",
       "League": "19232",
       "HomeScore": "1",
       "MessageId": null,
