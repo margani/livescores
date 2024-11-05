@@ -143,6 +143,14 @@
       "BadgeUrl": "https://static.livescore.com/competition/high/afc-champions-league-elite.png",
       "Name": "AFC Champions League Elite: West",
       "Country": "Asia"
+    },
+    {
+      "Id": "19232",
+      "BadgeUrl": "https://static.livescore.com/competition/high/2023-champions-league.png",
+      "Slug": "league-stage",
+      "Name": "League Stage",
+      "Country": "Champions League",
+      "CountrySlug": "champions-league"
     }
   ],
   "teams": [
@@ -913,6 +921,42 @@
       "Name": "Al-Rayyan",
       "Abbreviation": "ALR",
       "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/101898.png"
+    },
+    {
+      "Abbreviation": "PSV",
+      "Name": "PSV Eindhoven",
+      "Id": "497",
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/8640.png"
+    },
+    {
+      "Abbreviation": "SLO",
+      "Name": "Slovan Bratislava",
+      "Id": "6793",
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/6019.png"
+    },
+    {
+      "Abbreviation": "DZA",
+      "Name": "Dinamo Zagreb",
+      "Id": "6179",
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/10156.png"
+    },
+    {
+      "Abbreviation": "SGR",
+      "Name": "Sturm Graz",
+      "Id": "2963",
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/10014.png"
+    },
+    {
+      "Abbreviation": "CEL",
+      "Name": "Celtic",
+      "Id": "4700",
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/9925.png"
+    },
+    {
+      "Abbreviation": "SLI",
+      "Name": "Sporting CP",
+      "Id": "3442",
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/9768.png"
     }
   ],
   "events": [
@@ -1654,6 +1698,105 @@
       "MessageId": 255,
       "StartTime": "2024-11-04T18:00:00",
       "HomeScore": "3"
+    },
+    {
+      "StartTime": "2024-11-05T17:45:00",
+      "AwayTeam": "3586",
+      "Status": "NotStarted",
+      "AwayScore": null,
+      "League": "19232",
+      "HomeScore": null,
+      "MessageId": null,
+      "Id": "1366245",
+      "HomeTeam": "497"
+    },
+    {
+      "StartTime": "2024-11-05T17:45:00",
+      "AwayTeam": "6179",
+      "Status": "NotStarted",
+      "AwayScore": null,
+      "League": "19232",
+      "HomeScore": null,
+      "MessageId": null,
+      "Id": "1366251",
+      "HomeTeam": "6793"
+    },
+    {
+      "StartTime": "2024-11-05T20:00:00",
+      "AwayTeam": "4328",
+      "Status": "NotStarted",
+      "AwayScore": null,
+      "League": "19232",
+      "HomeScore": null,
+      "MessageId": null,
+      "Id": "1366262",
+      "HomeTeam": "3903"
+    },
+    {
+      "StartTime": "2024-11-05T20:00:00",
+      "AwayTeam": "2963",
+      "Status": "NotStarted",
+      "AwayScore": null,
+      "League": "19232",
+      "HomeScore": null,
+      "MessageId": null,
+      "Id": "1366157",
+      "HomeTeam": "448"
+    },
+    {
+      "StartTime": "2024-11-05T20:00:00",
+      "AwayTeam": "4707",
+      "Status": "NotStarted",
+      "AwayScore": null,
+      "League": "19232",
+      "HomeScore": null,
+      "MessageId": null,
+      "Id": "1366148",
+      "HomeTeam": "4700"
+    },
+    {
+      "StartTime": "2024-11-05T20:00:00",
+      "AwayTeam": "4238",
+      "Status": "NotStarted",
+      "AwayScore": null,
+      "League": "19232",
+      "HomeScore": null,
+      "MessageId": null,
+      "Id": "1366214",
+      "HomeTeam": "3880"
+    },
+    {
+      "StartTime": "2024-11-05T20:00:00",
+      "AwayTeam": "15",
+      "Status": "NotStarted",
+      "AwayScore": null,
+      "League": "19232",
+      "HomeScore": null,
+      "MessageId": null,
+      "Id": "1366185",
+      "HomeTeam": "3340"
+    },
+    {
+      "StartTime": "2024-11-05T20:00:00",
+      "AwayTeam": "2988",
+      "Status": "NotStarted",
+      "AwayScore": null,
+      "League": "19232",
+      "HomeScore": null,
+      "MessageId": null,
+      "Id": "1366173",
+      "HomeTeam": "4009"
+    },
+    {
+      "StartTime": "2024-11-05T20:00:00",
+      "AwayTeam": "12633",
+      "Status": "NotStarted",
+      "AwayScore": null,
+      "League": "19232",
+      "HomeScore": null,
+      "MessageId": null,
+      "Id": "1366139",
+      "HomeTeam": "3442"
     }
   ]
 }
