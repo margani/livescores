@@ -1744,7 +1744,8 @@
       "HomeScore": "0",
       "MessageId": 273,
       "Id": "1366262",
-      "HomeTeam": "3903"
+      "HomeTeam": "3903",
+      "Highlight": null
     },
     {
       "StartTime": "2024-11-05T20:00:00",
@@ -1755,7 +1756,8 @@
       "HomeScore": "1",
       "MessageId": 270,
       "Id": "1366157",
-      "HomeTeam": "448"
+      "HomeTeam": "448",
+      "Highlight": null
     },
     {
       "StartTime": "2024-11-05T20:00:00",
@@ -1766,7 +1768,8 @@
       "HomeScore": "3",
       "MessageId": 274,
       "Id": "1366148",
-      "HomeTeam": "4700"
+      "HomeTeam": "4700",
+      "Highlight": null
     },
     {
       "StartTime": "2024-11-05T20:00:00",
@@ -1777,7 +1780,8 @@
       "HomeScore": "1",
       "MessageId": 275,
       "Id": "1366214",
-      "HomeTeam": "3880"
+      "HomeTeam": "3880",
+      "Highlight": null
     },
     {
       "StartTime": "2024-11-05T20:00:00",
@@ -1788,7 +1792,13 @@
       "HomeScore": "4",
       "MessageId": 271,
       "Id": "1366185",
-      "HomeTeam": "3340"
+      "HomeTeam": "3340",
+      "Highlight": {
+        "MessageId": 277,
+        "PublishedAt": "2024-11-05T22:23:07+00:00",
+        "ThumbnailUrl": "https://i.ytimg.com/vi/UOpxzuDykkM/mqdefault.jpg",
+        "VideoUrl": "https://www.youtube.com/watch?v=UOpxzuDykkM"
+      }
     },
     {
       "StartTime": "2024-11-05T20:00:00",
