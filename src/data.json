@@ -1686,7 +1686,8 @@
       "AwayTeam": "4610",
       "MessageId": 254,
       "StartTime": "2024-11-04T16:00:00",
-      "HomeScore": "1"
+      "HomeScore": "1",
+      "Highlight": null
     },
     {
       "Status": "FullTime",
@@ -1697,7 +1698,8 @@
       "AwayTeam": "4592",
       "MessageId": 255,
       "StartTime": "2024-11-04T18:00:00",
-      "HomeScore": "3"
+      "HomeScore": "3",
+      "Highlight": null
     },
     {
       "StartTime": "2024-11-05T17:45:00",
@@ -1708,7 +1710,8 @@
       "HomeScore": "4",
       "MessageId": 266,
       "Id": "1366245",
-      "HomeTeam": "497"
+      "HomeTeam": "497",
+      "Highlight": null
     },
     {
       "StartTime": "2024-11-05T17:45:00",
@@ -1719,12 +1722,18 @@
       "HomeScore": "1",
       "MessageId": 267,
       "Id": "1366251",
-      "HomeTeam": "6793"
+      "HomeTeam": "6793",
+      "Highlight": {
+        "PublishedAt": "2024-11-05T19:58:05+00:00",
+        "ThumbnailUrl": "https://i.ytimg.com/vi/jh_JRFRSFIs/mqdefault.jpg",
+        "VideoUrl": "https://www.youtube.com/watch?v=jh_JRFRSFIs",
+        "MessageId": 268
+      }
     },
     {
       "StartTime": "2024-11-05T20:00:00",
       "AwayTeam": "4328",
-      "Status": "6'",
+      "Status": "19'",
       "AwayScore": "0",
       "League": "19232",
       "HomeScore": "0",
@@ -1735,7 +1744,7 @@
     {
       "StartTime": "2024-11-05T20:00:00",
       "AwayTeam": "2963",
-      "Status": "7'",
+      "Status": "20'",
       "AwayScore": "0",
       "League": "19232",
       "HomeScore": "0",
@@ -1746,7 +1755,7 @@
     {
       "StartTime": "2024-11-05T20:00:00",
       "AwayTeam": "4707",
-      "Status": "7'",
+      "Status": "20'",
       "AwayScore": "0",
       "League": "19232",
       "HomeScore": "0",
@@ -1757,7 +1766,7 @@
     {
       "StartTime": "2024-11-05T20:00:00",
       "AwayTeam": "4238",
-      "Status": "7'",
+      "Status": "19'",
       "AwayScore": "0",
       "League": "19232",
       "HomeScore": "0",
@@ -1768,7 +1777,7 @@
     {
       "StartTime": "2024-11-05T20:00:00",
       "AwayTeam": "15",
-      "Status": "7'",
+      "Status": "20'",
       "AwayScore": "0",
       "League": "19232",
       "HomeScore": "0",
@@ -1779,8 +1788,8 @@
     {
       "StartTime": "2024-11-05T20:00:00",
       "AwayTeam": "2988",
-      "Status": "6'",
-      "AwayScore": "0",
+      "Status": "19'",
+      "AwayScore": "1",
       "League": "19232",
       "HomeScore": "0",
       "MessageId": null,
@@ -1790,7 +1799,7 @@
     {
       "StartTime": "2024-11-05T20:00:00",
       "AwayTeam": "12633",
-      "Status": "7'",
+      "Status": "20'",
       "AwayScore": "1",
       "League": "19232",
       "HomeScore": "0",
