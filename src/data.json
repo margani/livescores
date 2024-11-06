@@ -1900,13 +1900,13 @@
     {
       "AwayTeam": "3863",
       "AwayScore": "0",
-      "MessageId": null,
+      "MessageId": 292,
       "HomeTeam": "3365",
       "HomeScore": "1",
       "Id": "1366234",
       "League": "19232",
       "StartTime": "2024-11-06T17:45:00",
-      "Status": "90+7'"
+      "Status": "FullTime"
     },
     {
       "AwayTeam": "3677",
