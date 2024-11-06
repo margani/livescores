@@ -3,7 +3,7 @@ name: Get Livescores
 on:
   workflow_dispatch:
   schedule:
-    - cron: "*/3 5-23 * * *"
+    - cron: "*/5 5-23 * * *"
     - cron: "0 4 * * MON"
 
 env:
@@ -13,7 +13,7 @@ env:
 jobs:
   getTodayEventsIncidents:
     runs-on: ubuntu-latest
-    if: github.event_name == 'workflow_dispatch' || github.event.schedule == '*/3 5-23 * * *'
+    if: github.event_name == 'workflow_dispatch' || github.event.schedule == '*/5 5-23 * * *'
     steps:
       - uses: actions/checkout@v4
 
