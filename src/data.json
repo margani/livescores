@@ -1935,7 +1935,7 @@
       "Id": "1366145",
       "League": "19232",
       "StartTime": "2024-11-06T20:00:00",
-      "Status": "12'"
+      "Status": "18'"
     },
     {
       "AwayTeam": "4661",
@@ -1946,18 +1946,18 @@
       "Id": "1366229",
       "League": "19232",
       "StartTime": "2024-11-06T20:00:00",
-      "Status": "27'"
+      "Status": "34'"
     },
     {
       "AwayTeam": "2911",
       "AwayScore": "1",
       "MessageId": null,
       "HomeTeam": "6492",
-      "HomeScore": "0",
+      "HomeScore": "1",
       "Id": "1366175",
       "League": "19232",
       "StartTime": "2024-11-06T20:00:00",
-      "Status": "26'"
+      "Status": "33'"
     },
     {
       "AwayTeam": "2773",
@@ -1968,7 +1968,7 @@
       "Id": "1366138",
       "League": "19232",
       "StartTime": "2024-11-06T20:00:00",
-      "Status": "28'"
+      "Status": "34'"
     },
     {
       "AwayTeam": "2912",
@@ -1979,7 +1979,7 @@
       "Id": "1366193",
       "League": "19232",
       "StartTime": "2024-11-06T20:00:00",
-      "Status": "27'"
+      "Status": "33'"
     },
     {
       "AwayTeam": "3498",
@@ -1990,7 +1990,7 @@
       "Id": "1366269",
       "League": "19232",
       "StartTime": "2024-11-06T20:00:00",
-      "Status": "27'"
+      "Status": "34'"
     },
     {
       "AwayTeam": "3416",
@@ -2001,7 +2001,7 @@
       "Id": "1366205",
       "League": "19232",
       "StartTime": "2024-11-06T20:00:00",
-      "Status": "26'"
+      "Status": "33'"
     }
   ]
 }
