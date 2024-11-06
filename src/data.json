@@ -1907,7 +1907,12 @@
       "League": "19232",
       "StartTime": "2024-11-06T17:45:00",
       "Status": "FullTime",
-      "Highlight": null
+      "Highlight": {
+        "PublishedAt": "2024-11-06T20:03:53+00:00",
+        "ThumbnailUrl": "https://i.ytimg.com/vi/Ur_tju6go4k/mqdefault.jpg",
+        "MessageId": 294,
+        "VideoUrl": "https://www.youtube.com/watch?v=Ur_tju6go4k"
+      }
     },
     {
       "AwayTeam": "3677",
@@ -1935,29 +1940,29 @@
       "Id": "1366145",
       "League": "19232",
       "StartTime": "2024-11-06T20:00:00",
-      "Status": "25'"
+      "Status": "31'"
     },
     {
       "AwayTeam": "4661",
-      "AwayScore": "0",
+      "AwayScore": "1",
       "MessageId": null,
       "HomeTeam": "449",
       "HomeScore": "0",
       "Id": "1366229",
       "League": "19232",
       "StartTime": "2024-11-06T20:00:00",
-      "Status": "41'"
+      "Status": "45+2'"
     },
     {
       "AwayTeam": "2911",
-      "AwayScore": "1",
+      "AwayScore": "2",
       "MessageId": null,
       "HomeTeam": "6492",
       "HomeScore": "1",
       "Id": "1366175",
       "League": "19232",
       "StartTime": "2024-11-06T20:00:00",
-      "Status": "40'"
+      "Status": "45+1'"
     },
     {
       "AwayTeam": "2773",
@@ -1968,7 +1973,7 @@
       "Id": "1366138",
       "League": "19232",
       "StartTime": "2024-11-06T20:00:00",
-      "Status": "41'"
+      "Status": "45+2'"
     },
     {
       "AwayTeam": "2912",
@@ -1979,7 +1984,7 @@
       "Id": "1366193",
       "League": "19232",
       "StartTime": "2024-11-06T20:00:00",
-      "Status": "40'"
+      "Status": "45+1'"
     },
     {
       "AwayTeam": "3498",
@@ -1990,7 +1995,7 @@
       "Id": "1366269",
       "League": "19232",
       "StartTime": "2024-11-06T20:00:00",
-      "Status": "41'"
+      "Status": "HalfTime"
     },
     {
       "AwayTeam": "3416",
@@ -2001,7 +2006,7 @@
       "Id": "1366205",
       "League": "19232",
       "StartTime": "2024-11-06T20:00:00",
-      "Status": "40'"
+      "Status": "45+1'"
     }
   ]
 }
