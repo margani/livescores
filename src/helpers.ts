@@ -2,6 +2,7 @@ import fs from 'fs';
 import nunjucks from 'nunjucks';
 import puppeteer from 'puppeteer';
 import { Jimp } from 'jimp';
+import ytdl from 'ytdl-core';
 
 const LS_API_URL = 'https://prod-cdn-public-api.livescore.com/v1/api'
 const LS_TEAM_API_URL = 'https://prod-cdn-team-api.livescore.com/v1/api/app/team'
@@ -143,4 +144,10 @@ async function addMarginToImage(imageFilePath: `${string}.${string}`, marginSize
     });
     background.composite(image, marginSize, marginSize);
     await background.write(imageFilePath);
+}
+
+export async function saveYoutubeVideo(videoUrl: string, videoFilePath: string) {
+    console.log('Saving youtube video...')
+    ytdl(videoUrl).pipe(fs.createWriteStream(videoFilePath));
+    console.log('Done.')
 }

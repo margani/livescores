@@ -1,5 +1,5 @@
 import { ArgumentParser } from 'argparse';
-import { renderLeaguesTables } from './helpers.js';
+import { renderLeaguesTables, saveYoutubeVideo } from './helpers.js';
 
 interface Actions {
     [key: string]: () => Promise<void>;
@@ -14,6 +14,9 @@ const action = args.action;
 const actions: Actions = {
     "generate-league-table": async () => {
         await renderLeaguesTables();
+    },
+    "save-youtube-video": async () => {
+        await saveYoutubeVideo('https://www.youtube.com/watch?v=tuFzPXkd2KI&ab_channel=riaziateshirin', 'video.mp4');
     },
 };
 
