@@ -957,6 +957,54 @@
       "Name": "Sporting CP",
       "Id": "3442",
       "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/9768.png"
+    },
+    {
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/8342.png",
+      "Name": "Club Brugge",
+      "Abbreviation": "BRU",
+      "Id": "3365"
+    },
+    {
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/9728.png",
+      "Name": "Shakhtar Donetsk",
+      "Abbreviation": "SHA",
+      "Id": "6389"
+    },
+    {
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/10192.png",
+      "Name": "Young Boys",
+      "Abbreviation": "YOU",
+      "Id": "3677"
+    },
+    {
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/9772.png",
+      "Name": "Benfica",
+      "Abbreviation": "SLB",
+      "Id": "304"
+    },
+    {
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/teambadge/feyenoord-2024.png",
+      "Name": "Feyenoord",
+      "Abbreviation": "FEY",
+      "Id": "449"
+    },
+    {
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/10013.png",
+      "Name": "RB Salzburg",
+      "Abbreviation": "RBS",
+      "Id": "4661"
+    },
+    {
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/8687.png",
+      "Name": "FK Crvena Zvezda",
+      "Abbreviation": "CRV",
+      "Id": "6492"
+    },
+    {
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/10247.png",
+      "Name": "Sparta Prague",
+      "Abbreviation": "SPA",
+      "Id": "6613"
     }
   ],
   "events": [
@@ -1848,6 +1896,105 @@
         "PublishedAt": "2024-11-05T22:32:48+00:00",
         "MessageId": 283
       }
+    },
+    {
+      "AwayTeam": "3863",
+      "AwayScore": null,
+      "MessageId": null,
+      "HomeTeam": "3365",
+      "HomeScore": null,
+      "Id": "1366234",
+      "League": "19232",
+      "StartTime": "2024-11-06T17:45:00",
+      "Status": "NotStarted"
+    },
+    {
+      "AwayTeam": "3677",
+      "AwayScore": null,
+      "MessageId": null,
+      "HomeTeam": "6389",
+      "HomeScore": null,
+      "Id": "1366219",
+      "League": "19232",
+      "StartTime": "2024-11-06T17:45:00",
+      "Status": "NotStarted"
+    },
+    {
+      "AwayTeam": "304",
+      "AwayScore": null,
+      "MessageId": null,
+      "HomeTeam": "2940",
+      "HomeScore": null,
+      "Id": "1366145",
+      "League": "19232",
+      "StartTime": "2024-11-06T20:00:00",
+      "Status": "NotStarted"
+    },
+    {
+      "AwayTeam": "4661",
+      "AwayScore": null,
+      "MessageId": null,
+      "HomeTeam": "449",
+      "HomeScore": null,
+      "Id": "1366229",
+      "League": "19232",
+      "StartTime": "2024-11-06T20:00:00",
+      "Status": "NotStarted"
+    },
+    {
+      "AwayTeam": "2911",
+      "AwayScore": null,
+      "MessageId": null,
+      "HomeTeam": "6492",
+      "HomeScore": null,
+      "Id": "1366175",
+      "League": "19232",
+      "StartTime": "2024-11-06T20:00:00",
+      "Status": "NotStarted"
+    },
+    {
+      "AwayTeam": "2773",
+      "AwayScore": null,
+      "MessageId": null,
+      "HomeTeam": "3415",
+      "HomeScore": null,
+      "Id": "1366138",
+      "League": "19232",
+      "StartTime": "2024-11-06T20:00:00",
+      "Status": "NotStarted"
+    },
+    {
+      "AwayTeam": "2912",
+      "AwayScore": null,
+      "MessageId": null,
+      "HomeTeam": "3910",
+      "HomeScore": null,
+      "Id": "1366193",
+      "League": "19232",
+      "StartTime": "2024-11-06T20:00:00",
+      "Status": "NotStarted"
+    },
+    {
+      "AwayTeam": "3498",
+      "AwayScore": null,
+      "MessageId": null,
+      "HomeTeam": "6613",
+      "HomeScore": null,
+      "Id": "1366269",
+      "League": "19232",
+      "StartTime": "2024-11-06T20:00:00",
+      "Status": "NotStarted"
+    },
+    {
+      "AwayTeam": "3416",
+      "AwayScore": null,
+      "MessageId": null,
+      "HomeTeam": "4378",
+      "HomeScore": null,
+      "Id": "1366205",
+      "League": "19232",
+      "StartTime": "2024-11-06T20:00:00",
+      "Status": "NotStarted"
     }
   ]
 }
