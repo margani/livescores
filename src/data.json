@@ -1941,7 +1941,12 @@
       "League": "19232",
       "StartTime": "2024-11-06T20:00:00",
       "Status": "FullTime",
-      "Highlight": null
+      "Highlight": {
+        "VideoUrl": "https://www.youtube.com/watch?v=L6FJOcbWYlI",
+        "ThumbnailUrl": "https://i.ytimg.com/vi/L6FJOcbWYlI/mqdefault.jpg",
+        "MessageId": 308,
+        "PublishedAt": "2024-11-06T22:50:57+00:00"
+      }
     },
     {
       "AwayTeam": "4661",
