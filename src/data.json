@@ -1932,69 +1932,69 @@
     },
     {
       "AwayTeam": "4661",
-      "AwayScore": null,
+      "AwayScore": "0",
       "MessageId": null,
       "HomeTeam": "449",
-      "HomeScore": null,
+      "HomeScore": "0",
       "Id": "1366229",
       "League": "19232",
       "StartTime": "2024-11-06T20:00:00",
-      "Status": "NotStarted"
+      "Status": "8'"
     },
     {
       "AwayTeam": "2911",
-      "AwayScore": null,
+      "AwayScore": "0",
       "MessageId": null,
       "HomeTeam": "6492",
-      "HomeScore": null,
+      "HomeScore": "0",
       "Id": "1366175",
       "League": "19232",
       "StartTime": "2024-11-06T20:00:00",
-      "Status": "NotStarted"
+      "Status": "7'"
     },
     {
       "AwayTeam": "2773",
-      "AwayScore": null,
+      "AwayScore": "0",
       "MessageId": null,
       "HomeTeam": "3415",
-      "HomeScore": null,
+      "HomeScore": "0",
       "Id": "1366138",
       "League": "19232",
       "StartTime": "2024-11-06T20:00:00",
-      "Status": "NotStarted"
+      "Status": "8'"
     },
     {
       "AwayTeam": "2912",
-      "AwayScore": null,
+      "AwayScore": "0",
       "MessageId": null,
       "HomeTeam": "3910",
-      "HomeScore": null,
+      "HomeScore": "0",
       "Id": "1366193",
       "League": "19232",
       "StartTime": "2024-11-06T20:00:00",
-      "Status": "NotStarted"
+      "Status": "7'"
     },
     {
       "AwayTeam": "3498",
-      "AwayScore": null,
+      "AwayScore": "0",
       "MessageId": null,
       "HomeTeam": "6613",
-      "HomeScore": null,
+      "HomeScore": "0",
       "Id": "1366269",
       "League": "19232",
       "StartTime": "2024-11-06T20:00:00",
-      "Status": "NotStarted"
+      "Status": "7'"
     },
     {
       "AwayTeam": "3416",
-      "AwayScore": null,
+      "AwayScore": "0",
       "MessageId": null,
       "HomeTeam": "4378",
-      "HomeScore": null,
+      "HomeScore": "0",
       "Id": "1366205",
       "League": "19232",
       "StartTime": "2024-11-06T20:00:00",
-      "Status": "NotStarted"
+      "Status": "6'"
     }
   ]
 }
