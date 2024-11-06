@@ -3,22 +3,21 @@ name: Get Livescores
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 6 * * *"
-    - cron: "*/5 6-22 * * *"
-    - cron: "0 23 * * SUN"
+    - cron: "*/3 5-23 * * *"
+    - cron: "0 4 * * MON"
 
 env:
   BOT_TOKEN: "${{ secrets.TELEGRAM_BOT_TOKEN }}"
   CHAT_ID: "${{ secrets.TELEGRAM_CHAT_ID }}"
 
 jobs:
-  getLiveScores:
+  getTodayEventsIncidents:
     runs-on: ubuntu-latest
+    if: github.event_name == 'workflow_dispatch' || github.event.schedule == '*/3 5-23 * * *'
     steps:
       - uses: actions/checkout@v4
 
       - name: Get Today Events
-        if: github.event.schedule == '0 6 * * *' || github.event_name == 'workflow_dispatch'
         run: .\src\actions.ps1 -Action get-today-events
         shell: pwsh
 
@@ -26,22 +25,29 @@ jobs:
         run: .\src\actions.ps1 -Action get-event-incidents
         shell: pwsh
 
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_author: GitHub Actions <actions@github.com>
+
+  getLeagueTables:
+    runs-on: ubuntu-latest
+    if: github.event.schedule == '0 4 * * MON'
+    steps:
+      - uses: actions/checkout@v4
+
       - name: Install pnpm
-        if: github.event.schedule == '0 23 * * SUN'
         uses: pnpm/action-setup@v4
         with:
           version: 9
           run_install: false
 
       - name: Install node.js 20.x
-        if: github.event.schedule == '0 23 * * SUN'
         uses: actions/setup-node@v4
         with:
           node-version: 20
           cache: 'pnpm'
 
       - name: Generate and send tables
-        if: github.event.schedule == '0 23 * * SUN'
         run: .\src\actions.ps1 -Action send-league-tables
         shell: pwsh
 
