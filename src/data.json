@@ -1906,18 +1906,18 @@
       "Id": "1366234",
       "League": "19232",
       "StartTime": "2024-11-06T17:45:00",
-      "Status": "90+1'"
+      "Status": "90+7'"
     },
     {
       "AwayTeam": "3677",
       "AwayScore": "1",
-      "MessageId": null,
+      "MessageId": 291,
       "HomeTeam": "6389",
       "HomeScore": "2",
       "Id": "1366219",
       "League": "19232",
       "StartTime": "2024-11-06T17:45:00",
-      "Status": "90'"
+      "Status": "FullTime"
     },
     {
       "AwayTeam": "304",
