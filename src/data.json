@@ -1757,7 +1757,12 @@
       "MessageId": 270,
       "Id": "1366157",
       "HomeTeam": "448",
-      "Highlight": null
+      "Highlight": {
+        "VideoUrl": "https://www.youtube.com/watch?v=MZhjwfXqLDQ",
+        "ThumbnailUrl": "https://i.ytimg.com/vi/MZhjwfXqLDQ/mqdefault.jpg",
+        "PublishedAt": "2024-11-05T22:30:34+00:00",
+        "MessageId": 279
+      }
     },
     {
       "StartTime": "2024-11-05T20:00:00",
@@ -1769,7 +1774,12 @@
       "MessageId": 274,
       "Id": "1366148",
       "HomeTeam": "4700",
-      "Highlight": null
+      "Highlight": {
+        "VideoUrl": "https://www.youtube.com/watch?v=_wRcfEUt7Cg",
+        "ThumbnailUrl": "https://i.ytimg.com/vi/_wRcfEUt7Cg/mqdefault.jpg",
+        "PublishedAt": "2024-11-05T22:54:13+00:00",
+        "MessageId": 280
+      }
     },
     {
       "StartTime": "2024-11-05T20:00:00",
@@ -1781,7 +1791,12 @@
       "MessageId": 275,
       "Id": "1366214",
       "HomeTeam": "3880",
-      "Highlight": null
+      "Highlight": {
+        "VideoUrl": "https://www.youtube.com/watch?v=H-3-_4LjkC4",
+        "ThumbnailUrl": "https://i.ytimg.com/vi/H-3-_4LjkC4/mqdefault.jpg",
+        "PublishedAt": "2024-11-05T23:24:05+00:00",
+        "MessageId": 281
+      }
     },
     {
       "StartTime": "2024-11-05T20:00:00",
@@ -1809,7 +1824,13 @@
       "HomeScore": "1",
       "MessageId": 276,
       "Id": "1366173",
-      "HomeTeam": "4009"
+      "HomeTeam": "4009",
+      "Highlight": {
+        "VideoUrl": "https://www.youtube.com/watch?v=DP51gDZYy-4",
+        "ThumbnailUrl": "https://i.ytimg.com/vi/DP51gDZYy-4/mqdefault.jpg",
+        "PublishedAt": "2024-11-05T22:56:58+00:00",
+        "MessageId": 282
+      }
     },
     {
       "StartTime": "2024-11-05T20:00:00",
@@ -1820,7 +1841,13 @@
       "HomeScore": "4",
       "MessageId": 272,
       "Id": "1366139",
-      "HomeTeam": "3442"
+      "HomeTeam": "3442",
+      "Highlight": {
+        "VideoUrl": "https://www.youtube.com/watch?v=AIhGq6QXX3s",
+        "ThumbnailUrl": "https://i.ytimg.com/vi/AIhGq6QXX3s/mqdefault.jpg",
+        "PublishedAt": "2024-11-05T22:32:48+00:00",
+        "MessageId": 283
+      }
     }
   ]
 }
