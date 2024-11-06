@@ -1940,7 +1940,8 @@
       "Id": "1366145",
       "League": "19232",
       "StartTime": "2024-11-06T20:00:00",
-      "Status": "FullTime"
+      "Status": "FullTime",
+      "Highlight": null
     },
     {
       "AwayTeam": "4661",
@@ -1951,7 +1952,13 @@
       "Id": "1366229",
       "League": "19232",
       "StartTime": "2024-11-06T20:00:00",
-      "Status": "FullTime"
+      "Status": "FullTime",
+      "Highlight": {
+        "PublishedAt": "2024-11-06T22:31:06+00:00",
+        "ThumbnailUrl": "https://i.ytimg.com/vi/TkB38_ZMjGI/mqdefault.jpg",
+        "VideoUrl": "https://www.youtube.com/watch?v=TkB38_ZMjGI",
+        "MessageId": 302
+      }
     },
     {
       "AwayTeam": "2911",
@@ -1962,7 +1969,13 @@
       "Id": "1366175",
       "League": "19232",
       "StartTime": "2024-11-06T20:00:00",
-      "Status": "FullTime"
+      "Status": "FullTime",
+      "Highlight": {
+        "PublishedAt": "2024-11-06T22:24:04+00:00",
+        "ThumbnailUrl": "https://i.ytimg.com/vi/kYCAngoINfs/mqdefault.jpg",
+        "VideoUrl": "https://www.youtube.com/watch?v=kYCAngoINfs",
+        "MessageId": 303
+      }
     },
     {
       "AwayTeam": "2773",
@@ -1973,7 +1986,13 @@
       "Id": "1366138",
       "League": "19232",
       "StartTime": "2024-11-06T20:00:00",
-      "Status": "FullTime"
+      "Status": "FullTime",
+      "Highlight": {
+        "PublishedAt": "2024-11-06T22:13:52+00:00",
+        "ThumbnailUrl": "https://i.ytimg.com/vi/r4BJR7U977c/mqdefault.jpg",
+        "VideoUrl": "https://www.youtube.com/watch?v=r4BJR7U977c",
+        "MessageId": 304
+      }
     },
     {
       "AwayTeam": "2912",
@@ -1984,7 +2003,13 @@
       "Id": "1366193",
       "League": "19232",
       "StartTime": "2024-11-06T20:00:00",
-      "Status": "FullTime"
+      "Status": "FullTime",
+      "Highlight": {
+        "PublishedAt": "2024-11-06T22:16:45+00:00",
+        "ThumbnailUrl": "https://i.ytimg.com/vi/-QEluRO3ibE/mqdefault.jpg",
+        "VideoUrl": "https://www.youtube.com/watch?v=-QEluRO3ibE",
+        "MessageId": 305
+      }
     },
     {
       "AwayTeam": "3498",
@@ -1995,7 +2020,13 @@
       "Id": "1366269",
       "League": "19232",
       "StartTime": "2024-11-06T20:00:00",
-      "Status": "FullTime"
+      "Status": "FullTime",
+      "Highlight": {
+        "PublishedAt": "2024-11-06T22:32:38+00:00",
+        "ThumbnailUrl": "https://i.ytimg.com/vi/ZgoCRL8V3Gc/mqdefault.jpg",
+        "VideoUrl": "https://www.youtube.com/watch?v=ZgoCRL8V3Gc",
+        "MessageId": 306
+      }
     },
     {
       "AwayTeam": "3416",
@@ -2006,7 +2037,13 @@
       "Id": "1366205",
       "League": "19232",
       "StartTime": "2024-11-06T20:00:00",
-      "Status": "FullTime"
+      "Status": "FullTime",
+      "Highlight": {
+        "PublishedAt": "2024-11-06T22:13:49+00:00",
+        "ThumbnailUrl": "https://i.ytimg.com/vi/_1alQ25Skqo/mqdefault.jpg",
+        "VideoUrl": "https://www.youtube.com/watch?v=_1alQ25Skqo",
+        "MessageId": 307
+      }
     }
   ]
 }
