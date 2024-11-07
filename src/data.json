@@ -2081,18 +2081,18 @@
     {
       "AwayScore": "0",
       "StartTime": "2024-11-07T20:00:00",
-      "Status": "90'",
+      "Status": "FullTime",
       "HomeScore": "2",
       "HomeTeam": "2810",
       "League": "19243",
       "AwayTeam": "4280",
-      "MessageId": null,
+      "MessageId": 310,
       "Id": "1365247"
     },
     {
       "AwayScore": "0",
       "StartTime": "2024-11-07T20:00:00",
-      "Status": "88'",
+      "Status": "90+4'",
       "HomeScore": "8",
       "HomeTeam": "2881",
       "League": "19244",
