@@ -151,6 +151,22 @@
       "Name": "League Stage",
       "Country": "Champions League",
       "CountrySlug": "champions-league"
+    },
+    {
+      "BadgeUrl": "https://static.livescore.com/competition/high/europa-league-2024.png",
+      "Name": "League Stage",
+      "Id": "19243",
+      "Country": "Europa League",
+      "CountrySlug": "europa-league",
+      "Slug": "league-stage"
+    },
+    {
+      "BadgeUrl": "https://static.livescore.com/competition/high/2023-europa-league-1.png",
+      "Name": "League Stage",
+      "Id": "19244",
+      "Country": "Conference League",
+      "CountrySlug": "conference-league",
+      "Slug": "league-stage"
     }
   ],
   "teams": [
@@ -1005,6 +1021,18 @@
       "Name": "Sparta Prague",
       "Abbreviation": "SPA",
       "Id": "6613"
+    },
+    {
+      "Abbreviation": "PAO",
+      "Name": "PAOK FC",
+      "Id": "4280",
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/8619.png"
+    },
+    {
+      "Abbreviation": "FCN",
+      "Name": "FC Noah",
+      "Id": "7907",
+      "LogoUrl": "https://lsm-static-prod.livescore.com/medium/enet/866111.png"
     }
   ],
   "events": [
@@ -2049,6 +2077,28 @@
         "VideoUrl": "https://www.youtube.com/watch?v=_1alQ25Skqo",
         "MessageId": 307
       }
+    },
+    {
+      "AwayScore": null,
+      "StartTime": "2024-11-07T20:00:00",
+      "Status": "NotStarted",
+      "HomeScore": null,
+      "HomeTeam": "2810",
+      "League": "19243",
+      "AwayTeam": "4280",
+      "MessageId": null,
+      "Id": "1365247"
+    },
+    {
+      "AwayScore": null,
+      "StartTime": "2024-11-07T20:00:00",
+      "Status": "NotStarted",
+      "HomeScore": null,
+      "HomeTeam": "2881",
+      "League": "19244",
+      "AwayTeam": "7907",
+      "MessageId": null,
+      "Id": "1365384"
     }
   ]
 }
